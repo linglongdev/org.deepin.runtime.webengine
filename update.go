@@ -33,6 +33,9 @@ var (
 		"qt6-translations",
 		"qt6-5compat",
 
+		"qt6-webengine",
+		"qt6-webchannel",
+
 		"dtkcore",
 		"dtkdeclarative",
 		"dtkgui",
@@ -192,6 +195,12 @@ func updateYamlFiles(content []byte) {
 			newLines = append(newLines, source)
 		}
 		newContent := strings.Join(newLines, "\n") + "\n" + string(content)
-		_ = os.WriteFile(file, []byte(newContent), 0644)
+
+		newContent = strings.Replace(newContent, "id: org.deepin.runtime.dtk", "id: org.deepin.runtime.webengine", 1)
+
+		err = os.WriteFile(file, []byte(newContent), 0644)
+		if err != nil {
+			panic(err)
+		}
 	}
 }
