@@ -15,3 +15,8 @@ export QML2_IMPORT_PATH=$QML_IMPORT_PATH
 # 设置环境变量，方便在终端中使用qt工具
 export PATH=$PATH:/runtime/lib/qt6/bin
 export CMAKE_PREFIX_PATH=/usr:/runtime:$PREFIX
+
+# webengine process path and resources path
+export QTWEBENGINEPROCESS_PATH=/runtime/lib/qt6/libexec/QtWebEngineProcess
+export QTWEBENGINE_RESOURCES_PATH=/runtime/share/qt6/resources
+export QTWEBENGINE_LOCALES_PATH=/runtime/share/qt6/translations/qtwebengine_locales
