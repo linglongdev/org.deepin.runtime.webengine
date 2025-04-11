@@ -24,6 +24,13 @@ sources+=(
     qt6integration
     fcitx5-qt
 )
+
+# qt webengine
+sources+=(
+    qt6-webengine
+    qt6-webchannel
+)
+
 # 解决功能问题
 sources+=(
     # 解决 ctrl+shift+? 快捷键对话框
@@ -53,9 +60,10 @@ sed -i '/fcitx5-frontend-qt5/d' install.list.tmp
 
 for file in linglong.yaml arm64/linglong.yaml loong64/linglong.yaml sw64/linglong.yaml mips64/linglong.yaml; do
     # 删除gen_deb_source后面的内容，将二进制包补充进去
-    grep -B 1000 'linglong:gen_deb_source sources' $file >$file.bk
-    cat install.list.tmp >>$file.bk
-    mv $file.bk $file
+    grep -B 1000 'linglong:gen_deb_source sources' $file >$file.new
+    cat install.list.tmp >>$file.new
+    sed -i "s#id: org.deepin.runtime.dtk\$#id: org.deepin.runtime.webengine#" $file.new
+    mv $file.new $file
 done
 
 rm install.list.tmp
