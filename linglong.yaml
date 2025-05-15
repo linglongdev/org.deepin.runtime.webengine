@@ -4,7 +4,7 @@ package:
   id: org.deepin.runtime.dtk
   name: deepin runtime
   kind: runtime
-  version: 25.2.0.2000000006
+  version: 25.2.0.2000000007
   description: |
     Qt is a cross-platform C++ application framework. Qt's primary feature
     is its rich set of widgets that provide standard GUI functionality.
@@ -237,11 +237,11 @@ sources:
     url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dconf/dconf-service_0.40.0-2_amd64.deb
     digest: e0191ee7e4fac0aa946ee39591ccf6137ac7d9fa7251c7a7abc1740cea2146ff
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/q/qt6integration/dde-qt6integration_6.0.34_amd64.deb
-    digest: b10dbaa85b62cff2682a94fef9d31a7791f4caf72013a65c8457c4e275183a7a
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/q/qt6integration/dde-qt6integration_6.0.35_amd64.deb
+    digest: 45be419d10c0262b48c0a571e2c15c215a7ad9c3522dbb706586f6f5a40f0a19
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dde-qt6platform-plugins/dde-qt6xcb-plugin_6.0.34_amd64.deb
-    digest: dcd66b91eb3e7da0cb7b7bc729f55bf622094e024a6bf17dce84b4d8cf69a9ce
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dde-qt6platform-plugins/dde-qt6xcb-plugin_6.0.35_amd64.deb
+    digest: 27256ab22ada147de39cf293c2f612808fbfb402078d4184e16b358a02c33a9a
   - kind: file
     url: http://10.20.64.92:8080/testing25_daily//pool/main/d/debconf/debconf_1.5.79-deepin_all.deb
     digest: ded6aaa7927ae27337ceb23d49391b4c7ec460a00ba692020e8f4e28388f345f
@@ -261,8 +261,8 @@ sources:
     url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dpkg/dpkg_1.22.6deepin4_amd64.deb
     digest: 2837fb44598aa57a0fc7d2b477c6539b3c268a1312f2580d4fb227e83d023d9b
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/dtk6-exhibition_6.0.34_amd64.deb
-    digest: f8aa4b686c6e14fe9b95f52b2e76f0157a90813f613510ca43a1c38b6903dad2
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/dtk6-exhibition_6.0.35_amd64.deb
+    digest: 3af7759bb1ff0f9a502f59719fafe9e356d07bbcd95636316a4c0594e5062567
   - kind: file
     url: http://10.20.64.92:8080/testing25_daily//pool/main/f/fcitx5-qt/fcitx5-frontend-qt6_5.1.8-2deepin1+rb1_amd64.deb
     digest: 207309f784e880fc090f0d4238a41f50b9424e8d6979954e8aa271d028f8ce09
@@ -543,29 +543,29 @@ sources:
     url: http://10.20.64.92:8080/testing25_daily//pool/main/libd/libdrm/libdrm2_2.4.123-1_amd64.deb
     digest: c2f1676c3335ab76ff829190951052abef661b735f2ddfefdb8d6c0698c41756
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6core/libdtk6core-bin_6.0.34_amd64.deb
-    digest: 08b768b6e084242cb636ed0c138e847041545cf7984dee9a2552e81208331feb
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6core/libdtk6core-bin_6.0.35_amd64.deb
+    digest: be2f7affd87a92863b2d3d55b2c500e14f0f8a267c197f67e292cf41796690e1
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6core/libdtk6core-dev_6.0.34_amd64.deb
-    digest: d8b5388661dfa98a17c0354ee874b9f528cb07bef160f5bfaa4d7e325dc76603
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6core/libdtk6core-dev_6.0.35_amd64.deb
+    digest: 638dbe0d3b3c7e6dea5c131a129aed54e8f0125ecc149dd4e3782f1322ebbbb7
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6core/libdtk6core_6.0.34_amd64.deb
-    digest: 91cd7ddbbdfb8b8de96734b41dfa1d58d31ba3bb6455961e18b2ecd6b174ee46
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6core/libdtk6core_6.0.35_amd64.deb
+    digest: dae13e5f42991a36ba0d3801b58766879a4f68b2f632427f1d4ea8c38a1480ca
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/libdtk6declarative-dev_6.0.34_amd64.deb
-    digest: 82379055e7afda0ae2204ba5f771acd9aa2c67cefedab9c290a63d4034f4e46d
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/libdtk6declarative-dev_6.0.35_amd64.deb
+    digest: c3768831dae65aa1061215e12289377c25bfc4a67318bb728244926a949e7aa7
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/libdtk6declarative_6.0.34_amd64.deb
-    digest: 724d806cde2676db43284f1a2daf08fc1f47689e6db4a57b8946825a071b910c
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/libdtk6declarative_6.0.35_amd64.deb
+    digest: 1e6ad879fe8897327d3248e4a349a5fed9bb421ff05405e78856ca82916095ec
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6gui/libdtk6gui-bin_6.0.34_amd64.deb
-    digest: 5a0ac33e139a3d56b02a9194be3ec19bae405bc784dcd133e37240c2bc37142c
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6gui/libdtk6gui-bin_6.0.35_amd64.deb
+    digest: a7878c55c9989e89f5569a79b7ad768c5e9e01a4a0bc12feb24ed266fceae6aa
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6gui/libdtk6gui-dev_6.0.34_amd64.deb
-    digest: 6ee389181cb30be4b72bcbf4ce71a182f9b9a808ce95a82ac0ad2d6a8cf0607a
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6gui/libdtk6gui-dev_6.0.35_amd64.deb
+    digest: d56c3e4d34f10848adfd2d8bc6858c10e2276ef0dbf4324e5053923b8656d2e9
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6gui/libdtk6gui_6.0.34_amd64.deb
-    digest: aa36ffab6e76c4f9944c3b24fc42de8c37d23ff9058bee66a36bfe0b867f0ff8
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6gui/libdtk6gui_6.0.35_amd64.deb
+    digest: 41eb0a5b1aed35951d5869d63e38259fb4baa3aa8623abb7e96fc6a30b0545fa
   - kind: file
     url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6log/libdtk6log-dev_0.0.2_amd64.deb
     digest: 203f1e94dcaa537929ad7df2c33f9ae6f006985fc56829a37c67dce2c11660c8
@@ -573,20 +573,20 @@ sources:
     url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6log/libdtk6log_0.0.2_amd64.deb
     digest: 4af48ee588e9a27ca3663193177c4fd2b4e455cff00dbff0aa5fc2ec4bdd24d5
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6widget/libdtk6widget-bin_6.0.34_amd64.deb
-    digest: d90304fa627777bd252c8d9580da763e5c5bb4200373adb7483781fbf6034aa7
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6widget/libdtk6widget-bin_6.0.35_amd64.deb
+    digest: 085b52bdf7abaf201a93c7a059274f7d87f1633c360ee0bdc14f13458700fa2f
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6widget/libdtk6widget-dev_6.0.34_amd64.deb
-    digest: fb5b78cb0e677ec86681870aef3605af0f02c9466a73f97d7657162fa787e302
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6widget/libdtk6widget-dev_6.0.35_amd64.deb
+    digest: 51800cd86e21c88e00dcd1e6bd085d964e2d83341b6839de6066773a9b6595d9
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6widget/libdtk6widget_6.0.34_amd64.deb
-    digest: ac1820ab34866ac1f458853ed951e0e645c62821f6c4fb11a44c07fa7b118998
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6widget/libdtk6widget_6.0.35_amd64.deb
+    digest: bbd05f0e1cb869874a1b9e4240959e0d8e5e77736502090e45dace1c7625c750
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtkcommon/libdtkcommon-dev_5.7.14_amd64.deb
-    digest: caf7e687b463129edbd5da391f744211628f1c4742c4851bfd0390da42e005d6
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtkcommon/libdtkcommon-dev_5.7.15_amd64.deb
+    digest: 6aaac543cf12c14d0f705b4bc2c38623e023439cb2d38996f2a6c19908fac83d
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtkcommon/libdtkdata_5.7.14_amd64.deb
-    digest: b8a917aac83c698bbeff3c0ac2b0519fa91adbb3a0819d07c337729bc2da66a1
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtkcommon/libdtkdata_5.7.15_amd64.deb
+    digest: 85a22225fabffa4ba2698a65783593f21a7c3d738b38f9dda342fe2891d2e1b9
   - kind: file
     url: http://10.20.64.92:8080/testing25_daily//pool/main/d/duktape/libduktape207_2.7.0-2_amd64.deb
     digest: 03743b861cdfa66aa9a94608574f3c6c784fa0ede3264e70d436c2fc8e902b95
@@ -894,8 +894,8 @@ sources:
     url: http://10.20.64.92:8080/testing25_daily//pool/main/x/xz-utils/liblzma5_5.4.5-0.3_amd64.deb
     digest: e8051c2b44fa1cc020c12ef45f4918c1dd7595532af89df0c583b4b3f333fa56
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/m/mariadb/libmariadb3_10.11.6-1_amd64.deb
-    digest: 9e34b4082ed62d3931bbf0445791aa7595ac23cf9e4ce764e9424d97118aa26c
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/m/mariadb/libmariadb3_11.8.1-4deepin1_amd64.deb
+    digest: a81ad1bcbf76123a98aca07e8bb02b9e21a592dfdc7513810335c18b471424b4
   - kind: file
     url: http://10.20.64.92:8080/testing25_daily//pool/main/m/mbedtls/libmbedcrypto3_2.16.9-0.1_amd64.deb
     digest: 1e2259f608a4bd66990c6ec31539f6b328776721a6ab5893e172802db5b4d952
@@ -1656,8 +1656,8 @@ sources:
     url: http://10.20.64.92:8080/testing25_daily//pool/main/m/make-dfsg/make_4.4.1-1_amd64.deb
     digest: fc03b0233080c11aadc3ef81283bcba5ff4904e0591ecf2beda7a4e7157e9975
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/m/mariadb/mariadb-common_10.11.6-1_all.deb
-    digest: b1a1400182db347fb0b509da981c6ed7798e4d9ec473ce2be5dd25b30c6df473
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/m/mariadb/mariadb-common_11.8.1-4deepin1_all.deb
+    digest: 848333f2b40b586ecf8f0db2b6127398d0423867e689937c4427ab15570e5581
   - kind: file
     url: http://10.20.64.92:8080/testing25_daily//pool/main/m/media-types/media-types_4.0.0_all.deb
     digest: cd124053950ab8b0373203bceb7eab841791017daf1d50db2ece09e4da52406a
@@ -1785,8 +1785,8 @@ sources:
     url: http://10.20.64.92:8080/testing25_daily//pool/main/q/qt6-declarative/qml6-module-qtqml_6.8.0+dfsg-0deepin3_amd64.deb
     digest: dcef2b6339bb7f19c33a710f6817b5f0512824a6139ac038a1626f766c2d3b91
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/qml6-module-qtquick-controls2-styles-chameleon_6.0.34_amd64.deb
-    digest: 5c633e39ebf0e131116541dafe138b3ee062d5e1dd7928b29e4413d122a6b7b9
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/qml6-module-qtquick-controls2-styles-chameleon_6.0.35_amd64.deb
+    digest: f1ef0764460238de08ca2475101307f664f59b8de17656cd28df188ee3eb0bb9
   - kind: file
     url: http://10.20.64.92:8080/testing25_daily//pool/main/q/qt6-declarative/qml6-module-qtquick-controls_6.8.0+dfsg-0deepin3_amd64.deb
     digest: dd7f3497cafccabe196a94a26af947fa64099fc99ce455aa90108b9354adfa66
