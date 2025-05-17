@@ -4,7 +4,7 @@ package:
   id: org.deepin.runtime.dtk
   name: deepin runtime
   kind: runtime
-  version: 25.2.0.2000000007
+  version: 25.2.0.2000000008
   description: |
     Qt is a cross-platform C++ application framework. Qt's primary feature
     is its rich set of widgets that provide standard GUI functionality.
@@ -261,8 +261,8 @@ sources:
     url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dpkg/dpkg_1.22.6deepin4_arm64.deb
     digest: 395526d8605c5a34c3bea89d6c32781d3a5625eae82b77f598835c09524f51cb
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/dtk6-exhibition_6.0.35_arm64.deb
-    digest: 75135213e3c807a73de7ba343e318721ef3680e5b9432ec3a5032576f29d6387
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/dtk6-exhibition_6.0.35.4_arm64.deb
+    digest: 3e58b8611aa24417851b84ab5de1559587bd089a68dbc2df737f129bca671e23
   - kind: file
     url: http://10.20.64.92:8080/testing25_daily//pool/main/f/fcitx5-qt/fcitx5-frontend-qt6_5.1.8-2deepin1+rb1_arm64.deb
     digest: f758b4640738de01ce3a869cda2b038f57f30d611a63c1402707be8a612dfedf
@@ -549,11 +549,11 @@ sources:
     url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6core/libdtk6core_6.0.35_arm64.deb
     digest: 6ac5df17e64172c473f19528906f597d0db5e6388f7872a4cfa13ee1c52e1ce3
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/libdtk6declarative-dev_6.0.35_arm64.deb
-    digest: 2d55f5e46f433ccf9beb74364feae6e4ba4724512fac513fdaf7cadc42e779c5
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/libdtk6declarative-dev_6.0.35.4_arm64.deb
+    digest: 593a34c452aa621d12c9daef1b5c5196d0436b7cfc7a0218f5739d7cab492825
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/libdtk6declarative_6.0.35_arm64.deb
-    digest: bf83a00009aab91ed8f84ae2f83b6a55e52e2fbbdc1e74a42d4d594d28507640
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/libdtk6declarative_6.0.35.4_arm64.deb
+    digest: b12f1244c3db3046f0e902d77417948577110bab652779c8d0844e9023d7dc92
   - kind: file
     url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6gui/libdtk6gui-bin_6.0.35_arm64.deb
     digest: bc35ffe19e7f78f51dd5c6f7bf0d00ddc5e2fd77f3bb07e15e96fc84aaff5582
@@ -771,11 +771,11 @@ sources:
     url: http://10.20.64.92:8080/testing25_daily//pool/main/g/gstreamer1.0/libgstreamer1.0-0_1.24.6-1_arm64.deb
     digest: 03dc57072d4dba09e76c53b9cba3371a1aad5dd660b8e2ece12ecf376904851b
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/g/gtk+3.0/libgtk-3-0_3.24.41-1deepin3_arm64.deb
-    digest: 749e5c0fe0d04c8c4d0e992f772a50b9eea20056972de6b06af26b58d1eb663d
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/g/gtk+3.0/libgtk-3-0_3.24.41-1deepin4_arm64.deb
+    digest: c8286a120540d1e80ade9a56063c4811c0e8348bc69ccf59d06fdbebeb5f7fde
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/g/gtk+3.0/libgtk-3-common_3.24.41-1deepin3_all.deb
-    digest: 7f825e93eff65e3f45cb78b25afb9fdf0f7de970c63beef733c5bf4ea94c31d3
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/g/gtk+3.0/libgtk-3-common_3.24.41-1deepin4_all.deb
+    digest: 92e49df720f0cffffad83b41e398232502ad1ea86136cc04ad4ffd4c4168f3ef
   - kind: file
     url: http://10.20.64.92:8080/testing25_daily//pool/main/libg/libgudev/libgudev-1.0-0_238-2deepin1_arm64.deb
     digest: c952bbe64709d944821b367c5c211af4447ddb59f58f1c2b2fa264ab234890bd
@@ -1779,8 +1779,8 @@ sources:
     url: http://10.20.64.92:8080/testing25_daily//pool/main/q/qt6-declarative/qml6-module-qtqml_6.8.0+dfsg-0deepin3_arm64.deb
     digest: 96f2f1d1953e3a48542911d7d13f179fc9e7766a462f5941a995f56455c9fc63
   - kind: file
-    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/qml6-module-qtquick-controls2-styles-chameleon_6.0.35_arm64.deb
-    digest: 9b537b4345aa68537e7df4af0f3d9eb29fe51c5abbb8ec7dc6547b1c10e1b451
+    url: http://10.20.64.92:8080/testing25_daily//pool/main/d/dtk6declarative/qml6-module-qtquick-controls2-styles-chameleon_6.0.35.4_arm64.deb
+    digest: 3d935baf5023b1cb4d9dccfbf03a909808ff81bdc153d0a081eef490f4835ddc
   - kind: file
     url: http://10.20.64.92:8080/testing25_daily//pool/main/q/qt6-declarative/qml6-module-qtquick-controls_6.8.0+dfsg-0deepin3_arm64.deb
     digest: 6ebce1670e7a4ac7a1a854e8d874cc6a52a1ff5fe2240e692ebbc0640ac94b5a
