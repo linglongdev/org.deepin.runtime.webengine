@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-poolURL=http://10.20.64.92:8080/testing25_daily/pool
+repoURL=http://10.20.64.92:8080/crimson_runtime/stable_20250827
 codename=main
 sources=(
     qt6-base
@@ -24,19 +24,12 @@ sources+=(
     qt6integration
     fcitx5-qt
 )
-
-# 兼容旧版本runtime
-sources+=(
-    icu
-    xcb-util
-    libpciaccess
-)
-
 # 解决功能问题
 sources+=(
     # 解决 ctrl+shift+? 快捷键对话框
     deepin-shortcut-viewer
 )
+
 # 查找源码包的所有二进制包，过滤掉调试符号、例子、文档等非二进制包
 rm install.list.tmp || true
 for src in "${sources[@]}"; do
@@ -45,7 +38,7 @@ for src in "${sources[@]}"; do
     if [[ $src == lib* ]]; then
         dir=${src:0:4}
     fi
-    out=$(curl -q -f "$poolURL/$codename/$dir/$src/" 2>/dev/null | grep deb | awk -F'_' '{print $1}' | awk -F'"' '{print $2}' | uniq)
+    out=$(curl -q -f "$repoURL/pool/$codename/$dir/$src/" 2>/dev/null | grep deb | awk -F'_' '{print $1}' | awk -F'"' '{print $2}' | uniq)
     echo "  # source package $src" >>install.list.tmp
     for pkg in $(echo "$out" | grep -v 'dbgsym$' | grep -v '\-doc$' | grep -v '\-examples$' | grep -v '\-doc\-'); do
         echo "  Binary $pkg" >&2
@@ -66,3 +59,8 @@ for file in linglong.yaml arm64/linglong.yaml loong64/linglong.yaml sw64/linglon
 done
 
 rm install.list.tmp
+
+# for src in "${sources[@]}"; do
+#     echo -n '$Source ('$src') | '
+# done
+# echo 

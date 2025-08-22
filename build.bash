@@ -1,7 +1,5 @@
-# disable install qtchooser
-echo "Package: qtchooser" >$PREFIX/packages.list
 # 安装依赖
-bash ./install_dep linglong/sources "$PREFIX"
+bash ./install_dep2 linglong/sources "$PREFIX"
 # 添加qmake配置
 envsubst <qt6.conf >$PREFIX/lib/qt6/bin/qt6.conf
 # 设置环境变量
