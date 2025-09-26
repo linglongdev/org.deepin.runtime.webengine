@@ -2,7 +2,7 @@
 set -x
 set -e
 VERSION="$1"
-project_root="$PWD"
+PROJECT="$PWD"
 
 # 获取base的包列表，用于跳过重复包
 ll-builder build --skip-pull-depend --skip-fetch-source --skip-commit-output -- cp /packages.list ./base_packages.list
@@ -16,5 +16,7 @@ cd vscode-linglong
 
 for file in linglong.yaml arm64/linglong.yaml loong64/linglong.yaml sw64/linglong.yaml mips64/linglong.yaml; do
     sed -i "s#  version: .*#  version: ${VERSION}#" ../$file
-    go run ./src/tools ../$file $project_root/base_packages.list
+    go run ./src/tools ../$file $PROJECT/base_packages.list
 done
+
+rm $PROJECT/base_packages.list
