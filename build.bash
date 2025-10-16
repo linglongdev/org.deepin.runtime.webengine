@@ -7,3 +7,4 @@ mkdir -p $PREFIX/etc
 cp profile $PREFIX/etc/
 # 删除字体文件
 rm -r $PREFIX/share/fonts
+/runtime/lib/qt6/bin/qmake --version
