@@ -1,7 +1,7 @@
 version: "1"
 
 package:
-  id: org.deepin.runtime.dtk
+  id: org.deepin.runtime.webengine
   name: deepin runtime
   kind: runtime
   version: 25.2.1.3
@@ -170,6 +170,28 @@ sources:
   # linglong:gen_deb_source install libfcitx5-qt-data
   # linglong:gen_deb_source install libfcitx5-qt6-1
   # linglong:gen_deb_source install libfcitx5-qt6-dev
+  # source package qt6-webengine
+  # linglong:gen_deb_source install libqt6pdf6
+  # linglong:gen_deb_source install libqt6pdfquick6
+  # linglong:gen_deb_source install libqt6pdfwidgets6
+  # linglong:gen_deb_source install libqt6webengine6-data
+  # linglong:gen_deb_source install libqt6webenginecore6-bin
+  # linglong:gen_deb_source install libqt6webenginecore6
+  # linglong:gen_deb_source install libqt6webenginequick6
+  # linglong:gen_deb_source install libqt6webenginewidgets6
+  # linglong:gen_deb_source install qml6-module-qtquick-pdf
+  # linglong:gen_deb_source install qml6-module-qtwebengine-controlsdelegates
+  # linglong:gen_deb_source install qml6-module-qtwebengine
+  # linglong:gen_deb_source install qt6-image-formats-plugin-pdf
+  # linglong:gen_deb_source install qt6-pdf-dev
+  # linglong:gen_deb_source install qt6-webengine-dev-tools
+  # linglong:gen_deb_source install qt6-webengine-dev
+  # linglong:gen_deb_source install qt6-webengine-private-dev
+  # source package qt6-webchannel
+  # linglong:gen_deb_source install libqt6webchannel6
+  # linglong:gen_deb_source install libqt6webchannelquick6
+  # linglong:gen_deb_source install qml6-module-qtwebchannel
+  # linglong:gen_deb_source install qt6-webchannel-dev
   # source package deepin-shortcut-viewer
   # linglong:gen_deb_source install deepin-shortcut-viewer
   - kind: file
@@ -223,6 +245,9 @@ sources:
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/libg/libgudev/gir1.2-gudev-1.0_238-2deepin1_amd64.deb
     digest: 3cbcb69c6edaebc428fc9f7c19a4a4e7a057bb980ab6b6f754561e3aee3ea011
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/i/isa-support/isa-support_20_amd64.deb
+    digest: f0b6359b69792c0a22c0e5c7b93a1fcda184bea1fa671c961af09438e1c4811a
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/f/ffmpeg/libavformat60_6.1.1-2deepin2_amd64.deb
     digest: 5a9d472dc24c2fca1fdb108e4c63c28f1bcd4cf4921e8bdeaab9920b0c4c6cce
@@ -521,6 +546,24 @@ sources:
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-base/libqt6openglwidgets6_6.8.0+dfsg-0deepin9_amd64.deb
     digest: 90918c88aea788323340fe4d735a8708a0b0e23eb7aebcf531a381e096d7242c
   - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/libqt6pdf6_6.8.0-0deepin2_amd64.deb
+    digest: 5e0910080ac074b125725c176d0ade642eccb7e8c0598c26d9db20dd7ca47b29
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/libqt6pdfquick6_6.8.0-0deepin2_amd64.deb
+    digest: 1f8dd7dd059b5542d03d9c0372944ea8788d47b099876fb85c052862abd0bd76
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/libqt6pdfwidgets6_6.8.0-0deepin2_amd64.deb
+    digest: 07e0c3776663cd56ee15e5019c868a460f5ac9a34a263ecbbfc35b1b80c3d929
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-positioning/libqt6positioning6-plugins_6.8.0-0deepin_amd64.deb
+    digest: 1a56ff6f735c76dcd4844af8d33da545bd8205d828e7cc273b9a0699ee89ece8
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-positioning/libqt6positioning6_6.8.0-0deepin_amd64.deb
+    digest: 6aca2b7a08e3dcb7fd06c96b58f6c281a3bc345bd1afc9053267dcfc50beb98b
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-positioning/libqt6positioningquick6_6.8.0-0deepin_amd64.deb
+    digest: 545fb71e264f83227b6c2afa98b55a516bd90e88f0889f4830ff052e3c95b273
+  - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-base/libqt6printsupport6_6.8.0+dfsg-0deepin9_amd64.deb
     digest: 853556dafedb65c367f2417c6aaa137d45bb0c6b0aefc6ca5835b9983fffd66e
   - kind: file
@@ -559,6 +602,9 @@ sources:
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-declarative/libqt6quickwidgets6_6.8.0+dfsg-0deepin3_amd64.deb
     digest: 21cd8eda13f476ec71438f56f43ed8933cc0b625302fff4c6f23baacbfb3b5b1
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-serialport/libqt6serialport6_6.8.0-0deepin_amd64.deb
+    digest: 4d208ae6aa356741f38c81c02088715324c343115a149eb68ea6780a47744b6f
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-shadertools/libqt6shadertools6_6.8.0-0deepin1_amd64.deb
     digest: 4e5dc0e41f8c49451b4595e605ddbe74d5cb4fca3100d26b552aa6a0931d575c
@@ -604,6 +650,27 @@ sources:
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-wayland/libqt6waylandcompositor6_6.8.0-0deepin7_amd64.deb
     digest: 4c5cc29f5d029e3fc1dbb749b4d5fb06f1801820fd8762243767ba23f6ac8b8b
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webchannel/libqt6webchannel6_6.8.0-0deepin_amd64.deb
+    digest: fc9ed264cf73ad331cceba8db922f4cbbfcf071f0884923f0423106a8d5f5b89
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webchannel/libqt6webchannelquick6_6.8.0-0deepin_amd64.deb
+    digest: fb9342cac6e8ed67d5f25f3010182d7a8599c32294a847693fba029cb042d1cb
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/libqt6webengine6-data_6.8.0-0deepin2_amd64.deb
+    digest: 615fa8d9b60d83038ca5d3507c37b0348d3158a460f096c54f3d518a09ca72e3
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/libqt6webenginecore6-bin_6.8.0-0deepin2_amd64.deb
+    digest: 9679bf15044fcb51560b2bf27f4cecc53c38c1852c76de9dc486c67bce0047c0
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/libqt6webenginecore6_6.8.0-0deepin2_amd64.deb
+    digest: da6017a0eb13b1f0f23091d9eefde4cbb06f41d6391bdea9bc2fa48c95b19a9b
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/libqt6webenginequick6_6.8.0-0deepin2_amd64.deb
+    digest: 4d83abe0a44684161b08976d6e25b53553b7fd765a7b0c91b802745796ae96be
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/libqt6webenginewidgets6_6.8.0-0deepin2_amd64.deb
+    digest: 89b6a7fc50f3913a8467cbce0b6d2702cc1467e9895a2f2413bfbf845cf1b3d0
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-base/libqt6widgets6_6.8.0+dfsg-0deepin9_amd64.deb
     digest: 5c05332e38fbc5a7e6248c1d69c4e35791dfb8a0629fd670a14de1f92cb83bc1
@@ -715,6 +782,9 @@ sources:
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/libx/libxkbcommon/libxkbcommon-dev_1.6.0-1_amd64.deb
     digest: fd7cb0bb0dc64c7417a6418bdf4d67145947902d5dd668eab4949811b170ee51
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/libx/libxslt/libxslt1.1_1.1.34-4_amd64.deb
+    digest: 57b60e3910615c73c78c090eb6f5a3d69c13638e2f212fe651a610e6b6d72ced
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/z/zeromq3/libzmq5_4.3.5-1_amd64.deb
     digest: 6374362f4defd2e6a454b31a8fe8e407aeb5558c4cacebc6a97a3c9d7f639e18
@@ -842,6 +912,9 @@ sources:
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-declarative/qml6-module-qtquick-particles_6.8.0+dfsg-0deepin3_amd64.deb
     digest: 785877c7f0dd9e8a0b6c56d9a7e0d40f948d7d49668af4f506695fcf4a6eaf28
   - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/qml6-module-qtquick-pdf_6.8.0-0deepin2_amd64.deb
+    digest: a109dddfad006b1d4fe60e08b69462a5ade8f02b53c4be65fdf3346ef6901975
+  - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-declarative/qml6-module-qtquick-shapes_6.8.0+dfsg-0deepin3_amd64.deb
     digest: d9b65c18f1f3f2d73ef2240775ed2dc1a6b039aa0e5259a682d5e2ced3591b22
   - kind: file
@@ -871,6 +944,15 @@ sources:
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-wayland/qml6-module-qtwayland-compositor_6.8.0-0deepin7_amd64.deb
     digest: 03eb095917568e544f8b889f79b5af89bc8edd05afe5a36a94987b726eb2e59f
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webchannel/qml6-module-qtwebchannel_6.8.0-0deepin_amd64.deb
+    digest: e3a0aca07707dbe0d908e9a62831ed95171605a6fa890e559948e59b6793af1b
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/qml6-module-qtwebengine-controlsdelegates_6.8.0-0deepin2_amd64.deb
+    digest: 69e4ba641ce6f6a3341ab19b3160f35184f90452028b6cc3f216d17e42816050
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/qml6-module-qtwebengine_6.8.0-0deepin2_amd64.deb
+    digest: 7486bdda88b6789ca67c0c92d22c97a00246e4b925985e3a7f05e7064d9d2b6c
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-declarative/qmlscene-qt6_6.8.0+dfsg-0deepin3_amd64.deb
     digest: 81bb80c65ec64de77906d3689381dc6291718ef6cf949f28fb110284db49ed22
@@ -902,6 +984,9 @@ sources:
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-base/qt6-gtk-platformtheme_6.8.0+dfsg-0deepin9_amd64.deb
     digest: 8834378e7cc55e658fe9ece1bea6cf1aeb444f6d51b48e538e6f078133a551de
   - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/qt6-image-formats-plugin-pdf_6.8.0-0deepin2_amd64.deb
+    digest: a0bda0dc9005e58441b3d11dc92ae7d236784e42c983ce673fbdaab25ccfebdd
+  - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-imageformats/qt6-image-formats-plugins_6.8.0-0deepin_amd64.deb
     digest: 820f8a30e3cd001eca5a21403b060ea5f047017fc9450423717ee7a59461a8f5
   - kind: file
@@ -910,6 +995,12 @@ sources:
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-multimedia/qt6-multimedia-dev_6.8.0-0deepin_amd64.deb
     digest: e49d551b49772f35ea9a4c524e58b523dea5c665b6ad96383da54a4ee9c7058d
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/qt6-pdf-dev_6.8.0-0deepin2_amd64.deb
+    digest: 62a716ad4304b2ab2368cecdad6012a6a7c154a526cbb2389a6e61a14801fb61
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-positioning/qt6-positioning-dev_6.8.0-0deepin_amd64.deb
+    digest: 6af2127a72323aff479d98b30719b42b59b3012183439189011d56ca3864f905
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-declarative/qt6-qmllint-plugins_6.8.0+dfsg-0deepin3_amd64.deb
     digest: 77c63ec8306aa1dd822fc77180a534777b8b79ffbcf4d62eba93a0078b2f419c
@@ -959,11 +1050,26 @@ sources:
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-wayland/qt6-wayland_6.8.0-0deepin7_amd64.deb
     digest: 86b2a30b50c61a01edb1eebcfcc42dfd65717dc165b7c7af9974863912e9c7c6
   - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webchannel/qt6-webchannel-dev_6.8.0-0deepin_amd64.deb
+    digest: 4ff7a320450c2892c585aa2f9876798090f86f53634c0abd2ec2ae221523f9f5
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/qt6-webengine-dev-tools_6.8.0-0deepin2_amd64.deb
+    digest: 3ec33b5882d48b97349ed8512eb7e91eb9e4c35fe0c35461e7aa1e0575bc135a
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/qt6-webengine-dev_6.8.0-0deepin2_amd64.deb
+    digest: 688d2289610d52030bacd18e5adb0fdabc6e997d1cb5198c567aa20bff445b4d
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-webengine/qt6-webengine-private-dev_6.8.0-0deepin2_amd64.deb
+    digest: c927906c91ebc68a4c88da9c9f5f1e5a9cc58d54fb305793287a0de4fc774128
+  - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-base/qt6-xcb-private-headers-dev_6.8.0+dfsg-0deepin9_all.deb
     digest: e70bbe5b35aa1009f8d3e8d58634052977864bad1d854230add6758ef238b1bc
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/q/qt6-base/qt6-xdgdesktopportal-platformtheme_6.8.0+dfsg-0deepin9_amd64.deb
     digest: c3ea85f183705379da923db9d3eab82b63505c1e0447b128e2f13e5968e4b16b
+  - kind: file
+    url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/i/isa-support/sse3-support_20_amd64.deb
+    digest: d3d15b6d1efd83ac8be75321a1ae64c9257a13ca6c49852253eb52d92c040d24
   - kind: file
     url: http://10.20.64.92:8080/crimson_runtime/stable_20250827/pool/main/u/usrmerge/usrmerge_39+nmu2deepin1_all.deb
     digest: 544feca0992471720cd5648cf88b0241df5d32cf72c2037ab5d19fd617a15a29
