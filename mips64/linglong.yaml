@@ -1,7 +1,7 @@
 version: "1"
 
 package:
-  id: org.deepin.runtime.dtk
+  id: org.deepin.runtime.webengine
   name: deepin runtime
   kind: runtime
   version: 25.2.1.5
@@ -170,6 +170,28 @@ sources:
   # linglong:gen_deb_source install libfcitx5-qt-data
   # linglong:gen_deb_source install libfcitx5-qt6-1
   # linglong:gen_deb_source install libfcitx5-qt6-dev
+  # source package qt6-webengine
+  # linglong:gen_deb_source install libqt6pdf6
+  # linglong:gen_deb_source install libqt6pdfquick6
+  # linglong:gen_deb_source install libqt6pdfwidgets6
+  # linglong:gen_deb_source install libqt6webengine6-data
+  # linglong:gen_deb_source install libqt6webenginecore6-bin
+  # linglong:gen_deb_source install libqt6webenginecore6
+  # linglong:gen_deb_source install libqt6webenginequick6
+  # linglong:gen_deb_source install libqt6webenginewidgets6
+  # linglong:gen_deb_source install qml6-module-qtquick-pdf
+  # linglong:gen_deb_source install qml6-module-qtwebengine-controlsdelegates
+  # linglong:gen_deb_source install qml6-module-qtwebengine
+  # linglong:gen_deb_source install qt6-image-formats-plugin-pdf
+  # linglong:gen_deb_source install qt6-pdf-dev
+  # linglong:gen_deb_source install qt6-webengine-dev-tools
+  # linglong:gen_deb_source install qt6-webengine-dev
+  # linglong:gen_deb_source install qt6-webengine-private-dev
+  # source package qt6-webchannel
+  # linglong:gen_deb_source install libqt6webchannel6
+  # linglong:gen_deb_source install libqt6webchannelquick6
+  # linglong:gen_deb_source install qml6-module-qtwebchannel
+  # linglong:gen_deb_source install qt6-webchannel-dev
   # source package deepin-shortcut-viewer
   # linglong:gen_deb_source install deepin-shortcut-viewer
   - kind: file
@@ -623,6 +645,12 @@ sources:
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/libqt6waylandcompositor6_6.8.0-0deepin7_mips64el.deb
     digest: b1deeee93816c50e47c4da597e685b2bcee2465a4217d737df2881071fe24f74
   - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webchannel/libqt6webchannel6_6.8.0-0deepin_mips64el.deb
+    digest: f7723b30c0661453c3d613c2cff50894e64c66c6ea0f4cb21d8245a6dff29c83
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webchannel/libqt6webchannelquick6_6.8.0-0deepin_mips64el.deb
+    digest: bfa7c4c50f6b9e79b9440920f764aad6ae6738ac11b3f92b0433dd35942276b8
+  - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6widgets6_6.8.0+dfsg-0deepin5_mips64el.deb
     digest: 960e45704ee5581961a41aa5b047320df35eafc36d1d0b04751c089d9b094545
   - kind: file
@@ -896,6 +924,9 @@ sources:
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/qml6-module-qtwayland-compositor_6.8.0-0deepin7_mips64el.deb
     digest: b3d383d94bd57224cb58f9fd8a07738369cce6fe8c1d175b7d6a45184d235bb1
   - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webchannel/qml6-module-qtwebchannel_6.8.0-0deepin_mips64el.deb
+    digest: 0da4779455dae7ede04726fb10060e4d25cb867e05d917d338dfb5708e043263
+  - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qmlscene-qt6_6.8.0+dfsg-0deepin3_mips64el.deb
     digest: 859335e63fa0b8c181e638c281609d365ede45c97232e7976cdf1f14210a568e
   - kind: file
@@ -982,6 +1013,9 @@ sources:
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/qt6-wayland_6.8.0-0deepin7_mips64el.deb
     digest: 19ae0178476c57712298c17f288c3a18c9c7a83d0167d4d3906fd96eca872d5b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webchannel/qt6-webchannel-dev_6.8.0-0deepin_mips64el.deb
+    digest: b631bb2b0f6dff24394060a266c60f27aec5b4799db5c005e046fbd7e86c9289
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/qt6-xdgdesktopportal-platformtheme_6.8.0+dfsg-0deepin5_mips64el.deb
     digest: 549759f42c37ea12e790bcb48725bd1a5762473a71f238762f041c55fb8167ea
