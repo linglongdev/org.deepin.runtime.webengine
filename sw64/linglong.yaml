@@ -4,7 +4,7 @@ package:
   id: org.deepin.runtime.dtk
   name: deepin runtime
   kind: runtime
-  version: 25.2.1.4
+  version: 25.2.1.5
   description: Deepin Tool Kit Widget
 
 base: org.deepin.base/25.2.1
