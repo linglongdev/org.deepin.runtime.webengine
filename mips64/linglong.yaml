@@ -4,10 +4,10 @@ package:
   id: org.deepin.runtime.dtk
   name: deepin runtime
   kind: runtime
-  version: 25.2.1.5
+  version: 25.2.2.1
   description: Deepin Tool Kit Widget
 
-base: org.deepin.base/25.2.1
+base: org.deepin.base/25.2.2
 
 build: |
   bash -e build.bash
@@ -425,9 +425,6 @@ sources:
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/l/litehtml/liblitehtml0_0.9-0deepin1_mips64el.deb
     digest: 376068821f6cd5e3255b7081cc368456dd64292ee9a1c8cd51ddb6e5ebd9bc26
   - kind: file
-    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/l/llvm-toolchain-17/libllvm17_17.0.6-5deepin5_mips64el.deb
-    digest: efcf557d5f777601dd6ff5d39d4d25d139603b7f3220eb5b54018b7a2ea1f788
-  - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/x/xz-utils/liblzma-dev_5.4.5-0.3_mips64el.deb
     digest: f5466325d6f0b0833e783cc8cde53576a76835e89c618c37f4b0152a7c694952
   - kind: file
@@ -691,9 +688,6 @@ sources:
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libu/libudfread/libudfread0_1.1.2-1_mips64el.deb
     digest: 544a357777a6eef84460d8e0309ff25511fb9514bd70c8b388f3ed92ef6959f9
-  - kind: file
-    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libu/libunistring/libunistring5_1.2-1_mips64el.deb
-    digest: 3a08d46b0a6450a2e85e6357a9c3de788cb4eda5df34f75e759d24cdd7e4f123
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libv/libvorbis/libvorbisfile3_1.3.7-1_mips64el.deb
     digest: 2c648ffb8251663830140e4980388f4cafe82af416271b79e464b20912eb29d1

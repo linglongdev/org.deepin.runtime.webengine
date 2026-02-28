@@ -4,10 +4,10 @@ package:
   id: org.deepin.runtime.dtk
   name: deepin runtime
   kind: runtime
-  version: 25.2.1.5
+  version: 25.2.2.1
   description: Deepin Tool Kit Widget
 
-base: org.deepin.base/25.2.1
+base: org.deepin.base/25.2.2
 
 build: |
   bash -e build.bash
@@ -415,9 +415,6 @@ sources:
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/l/litehtml/liblitehtml0_0.9-0deepin1_sw64.deb
     digest: 16ffa9c58a2442da611b0129702df810a80331ea9618db2c1fe8c74811c0a2e9
-  - kind: file
-    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/l/llvm-toolchain-17/libllvm17_17.0.6-5deepin5_sw64.deb
-    digest: 2ff7adf9546d6f3ab9294cc887b1fb42a95cf95d731f1d100f60c33a7d1b6525
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/x/xz-utils/liblzma-dev_5.4.5-0.3_sw64.deb
     digest: 2d779af18a1d50d00ba136f4a41cd80a0643b7d766e87b2e5a7b9a9dbe9f7152
