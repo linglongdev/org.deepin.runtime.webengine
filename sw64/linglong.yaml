@@ -4,7 +4,7 @@ package:
   id: org.deepin.runtime.dtk
   name: deepin runtime
   kind: runtime
-  version: 25.2.2.2
+  version: 25.2.2.3
   description: Deepin Tool Kit Widget
 
 base: org.deepin.base/25.2.2
@@ -23,19 +23,19 @@ sources:
   # linglong:gen_deb_source install libqt6opengl6
   # linglong:gen_deb_source install libqt6openglwidgets6
   # linglong:gen_deb_source install libqt6printsupport6
+  # linglong:gen_deb_source install libqt6sql6
   # linglong:gen_deb_source install libqt6sql6-ibase
   # linglong:gen_deb_source install libqt6sql6-mysql
   # linglong:gen_deb_source install libqt6sql6-odbc
   # linglong:gen_deb_source install libqt6sql6-psql
   # linglong:gen_deb_source install libqt6sql6-sqlite
-  # linglong:gen_deb_source install libqt6sql6
   # linglong:gen_deb_source install libqt6test6
   # linglong:gen_deb_source install libqt6widgets6
   # linglong:gen_deb_source install libqt6xml6
-  # linglong:gen_deb_source install qmake6-bin
   # linglong:gen_deb_source install qmake6
-  # linglong:gen_deb_source install qt6-base-dev-tools
+  # linglong:gen_deb_source install qmake6-bin
   # linglong:gen_deb_source install qt6-base-dev
+  # linglong:gen_deb_source install qt6-base-dev-tools
   # linglong:gen_deb_source install qt6-base-private-dev
   # linglong:gen_deb_source install qt6-gtk-platformtheme
   # linglong:gen_deb_source install qt6-qpa-plugins
@@ -58,6 +58,7 @@ sources:
   # linglong:gen_deb_source install libqt6quickshapes6
   # linglong:gen_deb_source install libqt6quicktemplates2-6
   # linglong:gen_deb_source install libqt6quicktest6
+  # linglong:gen_deb_source install libqt6quickvectorimage6
   # linglong:gen_deb_source install libqt6quickvectorimagegenerator6
   # linglong:gen_deb_source install libqt6quickwidgets6
   # linglong:gen_deb_source install qml-qt6
@@ -71,11 +72,12 @@ sources:
   # linglong:gen_deb_source install qml6-module-qt-labs-wavefrontmesh
   # linglong:gen_deb_source install qml6-module-qtcore
   # linglong:gen_deb_source install qml6-module-qtnetwork
+  # linglong:gen_deb_source install qml6-module-qtqml
   # linglong:gen_deb_source install qml6-module-qtqml-base
   # linglong:gen_deb_source install qml6-module-qtqml-models
   # linglong:gen_deb_source install qml6-module-qtqml-workerscript
   # linglong:gen_deb_source install qml6-module-qtqml-xmllistmodel
-  # linglong:gen_deb_source install qml6-module-qtqml
+  # linglong:gen_deb_source install qml6-module-qtquick
   # linglong:gen_deb_source install qml6-module-qtquick-controls
   # linglong:gen_deb_source install qml6-module-qtquick-dialogs
   # linglong:gen_deb_source install qml6-module-qtquick-effects
@@ -88,11 +90,10 @@ sources:
   # linglong:gen_deb_source install qml6-module-qtquick-tooling
   # linglong:gen_deb_source install qml6-module-qtquick-vectorimage
   # linglong:gen_deb_source install qml6-module-qtquick-window
-  # linglong:gen_deb_source install qml6-module-qtquick
   # linglong:gen_deb_source install qml6-module-qttest
   # linglong:gen_deb_source install qmlscene-qt6
-  # linglong:gen_deb_source install qt6-declarative-dev-tools
   # linglong:gen_deb_source install qt6-declarative-dev
+  # linglong:gen_deb_source install qt6-declarative-dev-tools
   # linglong:gen_deb_source install qt6-declarative-private-dev
   # linglong:gen_deb_source install qt6-qmllint-plugins
   # linglong:gen_deb_source install qt6-qmltooling-plugins
@@ -122,8 +123,8 @@ sources:
   # linglong:gen_deb_source install qdbus-qt6
   # linglong:gen_deb_source install qt6-documentation-tools
   # linglong:gen_deb_source install qt6-l10n-tools
-  # linglong:gen_deb_source install qt6-tools-dev-tools
   # linglong:gen_deb_source install qt6-tools-dev
+  # linglong:gen_deb_source install qt6-tools-dev-tools
   # linglong:gen_deb_source install qt6-tools-private-dev
   # source package qt6-wayland
   # linglong:gen_deb_source install libqt6waylandclient6
@@ -131,40 +132,43 @@ sources:
   # linglong:gen_deb_source install libqt6wlshellintegration6
   # linglong:gen_deb_source install qml6-module-qtwayland-client-texturesharing
   # linglong:gen_deb_source install qml6-module-qtwayland-compositor
-  # linglong:gen_deb_source install qt6-wayland-dev-tools
-  # linglong:gen_deb_source install qt6-wayland-dev
-  # linglong:gen_deb_source install qt6-wayland-private-dev
   # linglong:gen_deb_source install qt6-wayland
+  # linglong:gen_deb_source install qt6-wayland-dev
+  # linglong:gen_deb_source install qt6-wayland-dev-tools
+  # linglong:gen_deb_source install qt6-wayland-private-dev
   # source package qt6-translations
   # linglong:gen_deb_source install qt6-translations-l10n
   # source package qt6-5compat
   # linglong:gen_deb_source install libqt6core5compat6
   # linglong:gen_deb_source install qml6-module-qt5compat-graphicaleffects
   # linglong:gen_deb_source install qt6-5compat-dev
-  # source package dtk6core
+  # source package dtkcore
+  # linglong:gen_deb_source install libdtk6core
   # linglong:gen_deb_source install libdtk6core-bin
   # linglong:gen_deb_source install libdtk6core-dev
-  # linglong:gen_deb_source install libdtk6core
-  # source package dtk6declarative
+  # source package dtkdeclarative
   # linglong:gen_deb_source install dtk6-exhibition
-  # linglong:gen_deb_source install libdtk6declarative-dev
   # linglong:gen_deb_source install libdtk6declarative
+  # linglong:gen_deb_source install libdtk6declarative-dev
   # linglong:gen_deb_source install qml6-module-qtquick-controls2-styles-chameleon
-  # source package dtk6gui
+  # source package dtkgui
+  # linglong:gen_deb_source install libdtk6gui
   # linglong:gen_deb_source install libdtk6gui-bin
   # linglong:gen_deb_source install libdtk6gui-dev
-  # linglong:gen_deb_source install libdtk6gui
-  # source package dtk6widget
+  # source package dtkwidget
+  # linglong:gen_deb_source install libdtk6widget
   # linglong:gen_deb_source install libdtk6widget-bin
   # linglong:gen_deb_source install libdtk6widget-dev
-  # linglong:gen_deb_source install libdtk6widget
-  # source package dtk6log
-  # linglong:gen_deb_source install libdtk6log-dev
+  # source package dtklog
   # linglong:gen_deb_source install libdtk6log
-  # source package dde-qt6platform-plugins
-  # linglong:gen_deb_source install dde-qt6xcb-plugin
-  # source package qt6integration
+  # linglong:gen_deb_source install libdtk6log-dev
+  # source package dtkcommon
+  # linglong:gen_deb_source install libdtkcommon-dev
+  # linglong:gen_deb_source install libdtkdata
+  # source package qt5integration
   # linglong:gen_deb_source install dde-qt6integration
+  # source package dde-qt5platform-plugins
+  # linglong:gen_deb_source install dde-qt6xcb-plugin
   # source package fcitx5-qt
   # linglong:gen_deb_source install fcitx5-frontend-qt6
   # linglong:gen_deb_source install libfcitx5-qt-data

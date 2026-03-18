@@ -4,6 +4,8 @@ set -e
 VERSION="$1"
 PROJECT="$PWD"
 
+go run update.go
+
 # 获取base的包列表，用于跳过重复包
 ll-builder build --skip-pull-depend --skip-fetch-source --skip-commit-output -- cp /packages.list ./base_packages.list
 
