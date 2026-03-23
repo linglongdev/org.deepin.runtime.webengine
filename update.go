@@ -164,6 +164,10 @@ func updateYamlFiles(content []byte) {
 		var arch string
 		if len(fields) == 2 {
 			arch = fields[0]
+			// debian架构是mips64el
+			if arch == "mips64" {
+				arch = "mips64el"
+			}
 		} else {
 			arch = "amd64"
 		}
