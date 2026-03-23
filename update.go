@@ -19,7 +19,7 @@ var (
 	deepinCodename = "stable"
 	uosCodename    = "snipe/2500u1"
 
-	uosArch = []string{"mips64el", "sw64"}
+	uosArch = []string{"mips64", "sw64"}
 
 	sources = []string{
 		"qt6-base",
@@ -156,7 +156,7 @@ func updateYamlFiles(content []byte) {
 		"arm64/linglong.yaml",
 		"loong64/linglong.yaml",
 		"sw64/linglong.yaml",
-		"mips64el/linglong.yaml",
+		"mips64/linglong.yaml",
 	}
 
 	for _, file := range yamlFiles {
@@ -164,15 +164,9 @@ func updateYamlFiles(content []byte) {
 		var arch string
 		if len(fields) == 2 {
 			arch = fields[0]
-			// debian架构是mips64el
-			if arch == "mips64" {
-				arch = "mips64el"
-			}
 		} else {
 			arch = "amd64"
 		}
-		deepinSource := fmt.Sprintf("  # linglong:gen_deb_source sources %s %s %s main", arch, deepinRepoURL, deepinCodename)
-		uosSource := fmt.Sprintf("  # linglong:gen_deb_source sources %s %s %s main community", arch, uosRepoURL, uosCodename)
 
 		original, err := os.ReadFile(file)
 		if err != nil {
@@ -188,9 +182,14 @@ func updateYamlFiles(content []byte) {
 			newLines = append(newLines, line)
 		}
 		if slices.Contains(uosArch, arch) {
-			newLines = append(newLines, uosSource)
+			if arch == "mips64" {
+				arch = "mips64el"
+			}
+			source := fmt.Sprintf("  # linglong:gen_deb_source sources %s %s %s main community", arch, uosRepoURL, uosCodename)
+			newLines = append(newLines, source)
 		} else {
-			newLines = append(newLines, deepinSource)
+			source := fmt.Sprintf("  # linglong:gen_deb_source sources %s %s %s main", arch, deepinRepoURL, deepinCodename)
+			newLines = append(newLines, source)
 		}
 		newContent := strings.Join(newLines, "\n") + "\n" + string(content)
 		_ = os.WriteFile(file, []byte(newContent), 0644)
