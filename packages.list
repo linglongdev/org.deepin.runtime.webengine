@@ -15,6 +15,7 @@ Package: fonts-freefont-ttf 20120503-10
 Package: fonts-liberation 1:2.1.5-3
 Package: fonts-texgyre 20180621-3.1
 Package: gir1.2-gudev-1.0 238-2deepin1
+Package: isa-support 27
 Package: libavformat60 7:6.1.1-2deepin6
 Package: libb2-1 0.98.1-1.1
 Package: libblkid-dev 2.40.4-3deepin4
@@ -113,6 +114,12 @@ Package: libqt6multimediawidgets6 6.8.0-0deepin
 Package: libqt6network6 6.8.0+dfsg-0deepin23
 Package: libqt6opengl6 6.8.0+dfsg-0deepin23
 Package: libqt6openglwidgets6 6.8.0+dfsg-0deepin23
+Package: libqt6pdf6 6.8.0-0deepin2
+Package: libqt6pdfquick6 6.8.0-0deepin2
+Package: libqt6pdfwidgets6 6.8.0-0deepin2
+Package: libqt6positioning6-plugins 6.8.0-0deepin
+Package: libqt6positioning6 6.8.0-0deepin
+Package: libqt6positioningquick6 6.8.0-0deepin
 Package: libqt6printsupport6 6.8.0+dfsg-0deepin23
 Package: libqt6qml6 6.8.0+dfsg-0deepin10
 Package: libqt6qmlcompiler6 6.8.0+dfsg-0deepin10
@@ -127,6 +134,7 @@ Package: libqt6quicktest6 6.8.0+dfsg-0deepin10
 Package: libqt6quickvectorimage6 6.8.0+dfsg-0deepin10
 Package: libqt6quickvectorimagegenerator6 6.8.0+dfsg-0deepin10
 Package: libqt6quickwidgets6 6.8.0+dfsg-0deepin10
+Package: libqt6serialport6 6.8.0-0deepin
 Package: libqt6shadertools6 6.8.0-0deepin1
 Package: libqt6spatialaudio6 6.8.0-0deepin
 Package: libqt6sql6-ibase 6.8.0+dfsg-0deepin23
@@ -142,6 +150,13 @@ Package: libqt6texttospeech6 6.8.0-0deepin1
 Package: libqt6uitools6 6.8.0-0deepin3
 Package: libqt6waylandclient6 6.8.0-0deepin8
 Package: libqt6waylandcompositor6 6.8.0-0deepin8
+Package: libqt6webchannel6 6.8.0-0deepin
+Package: libqt6webchannelquick6 6.8.0-0deepin
+Package: libqt6webengine6-data 6.8.0-0deepin2
+Package: libqt6webenginecore6-bin 6.8.0-0deepin2
+Package: libqt6webenginecore6 6.8.0-0deepin2
+Package: libqt6webenginequick6 6.8.0-0deepin2
+Package: libqt6webenginewidgets6 6.8.0-0deepin2
 Package: libqt6widgets6 6.8.0+dfsg-0deepin23
 Package: libqt6wlshellintegration6 6.8.0-0deepin8
 Package: libqt6xml6 6.8.0+dfsg-0deepin23
@@ -179,6 +194,7 @@ Package: libxau-dev 1:1.0.9-1
 Package: libxcb1-dev 1.15-1
 Package: libxdmcp-dev 1:1.1.2-3
 Package: libxkbcommon-dev 1.6.0-1
+Package: libxslt1.1 1.1.35-2deepin1
 Package: libzmq5 4.3.5-1
 Package: libzstd-dev 1.5.6+dfsg-1
 Package: linguist-qt6 6.8.0-0deepin3
@@ -222,6 +238,7 @@ Package: qml6-module-qtquick-layouts 6.8.0+dfsg-0deepin10
 Package: qml6-module-qtquick-localstorage 6.8.0+dfsg-0deepin10
 Package: qml6-module-qtquick-nativestyle 6.8.0+dfsg-0deepin10
 Package: qml6-module-qtquick-particles 6.8.0+dfsg-0deepin10
+Package: qml6-module-qtquick-pdf 6.8.0-0deepin2
 Package: qml6-module-qtquick-shapes 6.8.0+dfsg-0deepin10
 Package: qml6-module-qtquick-templates 6.8.0+dfsg-0deepin10
 Package: qml6-module-qtquick-tooling 6.8.0+dfsg-0deepin10
@@ -232,6 +249,9 @@ Package: qml6-module-qttest 6.8.0+dfsg-0deepin10
 Package: qml6-module-qttexttospeech 6.8.0-0deepin1
 Package: qml6-module-qtwayland-client-texturesharing 6.8.0-0deepin8
 Package: qml6-module-qtwayland-compositor 6.8.0-0deepin8
+Package: qml6-module-qtwebchannel 6.8.0-0deepin
+Package: qml6-module-qtwebengine-controlsdelegates 6.8.0-0deepin2
+Package: qml6-module-qtwebengine 6.8.0-0deepin2
 Package: qmlscene-qt6 6.8.0+dfsg-0deepin10
 Package: qt6-5compat-dev 6.8.0-0deepin
 Package: qt6-base-dev-tools 6.8.0+dfsg-0deepin23
@@ -242,9 +262,12 @@ Package: qt6-declarative-dev 6.8.0+dfsg-0deepin10
 Package: qt6-declarative-private-dev 6.8.0+dfsg-0deepin10
 Package: qt6-documentation-tools 6.8.0-0deepin3
 Package: qt6-gtk-platformtheme 6.8.0+dfsg-0deepin23
+Package: qt6-image-formats-plugin-pdf 6.8.0-0deepin2
 Package: qt6-image-formats-plugins 6.8.0-0deepin1
 Package: qt6-l10n-tools 6.8.0-0deepin3
 Package: qt6-multimedia-dev 6.8.0-0deepin
+Package: qt6-pdf-dev 6.8.0-0deepin2
+Package: qt6-positioning-dev 6.8.0-0deepin
 Package: qt6-qmllint-plugins 6.8.0+dfsg-0deepin10
 Package: qt6-qmltooling-plugins 6.8.0+dfsg-0deepin10
 Package: qt6-qpa-plugins 6.8.0+dfsg-0deepin23
@@ -261,8 +284,13 @@ Package: qt6-wayland-dev-tools 6.8.0-0deepin8
 Package: qt6-wayland-dev 6.8.0-0deepin8
 Package: qt6-wayland-private-dev 6.8.0-0deepin8
 Package: qt6-wayland 6.8.0-0deepin8
+Package: qt6-webchannel-dev 6.8.0-0deepin
+Package: qt6-webengine-dev-tools 6.8.0-0deepin2
+Package: qt6-webengine-dev 6.8.0-0deepin2
+Package: qt6-webengine-private-dev 6.8.0-0deepin2
 Package: qt6-xcb-private-headers-dev 6.8.0+dfsg-0deepin9
 Package: qt6-xdgdesktopportal-platformtheme 6.8.0+dfsg-0deepin23
+Package: sse3-support 27
 Package: usrmerge 39+nmu2deepin1
 Package: uuid-dev 2.40.4-3deepin4
 Package: x11proto-core-dev 2024.1-1
