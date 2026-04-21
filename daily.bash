@@ -7,7 +7,7 @@ PROJECT="$PWD"
 go run update.go
 
 # 获取base的包列表，用于跳过重复包
-ll-builder build --skip-pull-depend --skip-fetch-source --skip-commit-output -- cp /packages.list ./base_packages.list
+ll-builder build --skip-fetch-source --skip-commit-output -- cp /packages.list ./base_packages.list
 
 echo "Package: qemu-user-static" >> base_packages.list
 
