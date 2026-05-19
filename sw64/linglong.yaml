@@ -4,7 +4,7 @@ package:
   id: org.deepin.runtime.dtk
   name: deepin runtime
   kind: runtime
-  version: 25.2.2.4
+  version: 25.2.2.5
   description: Deepin Tool Kit Widget
 
 base: org.deepin.base/25.2.2
@@ -176,6 +176,8 @@ sources:
   # linglong:gen_deb_source install libfcitx5-qt6-dev
   # source package deepin-shortcut-viewer
   # linglong:gen_deb_source install deepin-shortcut-viewer
+  # source package uos-license-content
+  # linglong:gen_deb_source install uos-license-content
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/assistant-qt6_6.8.0-0deepin3_sw64.deb
     digest: 637b3d77dbb06fcaac2d23df85135d52cc8b4a4a1cab3b5aa3d213e27e40a4d1
@@ -437,9 +439,6 @@ sources:
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/util-linux/libmount-dev_2.40.4-3deepin8_sw64.deb
     digest: 53845c1dcd088b587df14a7c300f9e875fc586bd932d9fc9005a120bfdbe6571
-  - kind: file
-    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mpg123/libmpg123-0_1.32.3-1_sw64.deb
-    digest: f28a534da871e5573ca0c0ada3172f590be9a026c7f36175544885c6fe251159
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mtdev/libmtdev-dev_1.1.6-1_sw64.deb
     digest: 81291cdacea7e14c8f5fc6dd1c294f3e8b2079e621b4fd169f498fcbb02cfa56
@@ -974,6 +973,9 @@ sources:
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/qt6-xdgdesktopportal-platformtheme_6.8.0+dfsg-0deepin23_sw64.deb
     digest: 78a4da0fe08f83d70b4d7f2850b87eb10e270f35ca58ec95a7bfc5170e091417
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/uos-license-content/uos-license-content_1.1.36.3-1_sw64.deb
+    digest: fb8bd4ed0fe0b76c8ec5e1161d5836ef6bfdb3a5aefa82886223c0ca37745782
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/usrmerge/usrmerge_39+nmu2deepin1_all.deb
     digest: def7f740c6520d8c1b210b6c71fc648b4106abc22c16830a2dff68aebf24a058
