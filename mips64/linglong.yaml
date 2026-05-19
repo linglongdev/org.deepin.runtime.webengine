@@ -4,7 +4,7 @@ package:
   id: org.deepin.runtime.dtk
   name: deepin runtime
   kind: runtime
-  version: 25.2.2.4
+  version: 25.2.2.5
   description: Deepin Tool Kit Widget
 
 base: org.deepin.base/25.2.2
@@ -176,6 +176,8 @@ sources:
   # linglong:gen_deb_source install libfcitx5-qt6-dev
   # source package deepin-shortcut-viewer
   # linglong:gen_deb_source install deepin-shortcut-viewer
+  # source package uos-license-content
+  # linglong:gen_deb_source install uos-license-content
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/assistant-qt6_6.8.0-0deepin3_mips64el.deb
     digest: 57fe3a41ae98855bea2f46a967dadb0b7411f2e456a5e19817bf6b446bc36b90
@@ -446,9 +448,6 @@ sources:
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/util-linux/libmount-dev_2.40.4-3deepin8_mips64el.deb
     digest: f598b6ebb2d8a78d60ded3b6086d1a10af18a39155a19a40844ff563122a23dc
-  - kind: file
-    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mpg123/libmpg123-0_1.32.3-1_mips64el.deb
-    digest: d5693e2ec76996e0e057cbc437845890605189f5528b63c849b58969de952461
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mtdev/libmtdev-dev_1.1.6-1_mips64el.deb
     digest: c7de03bb198bab3fb08f86947434b162952760e08086b688a989a03a18ba0897
@@ -980,6 +979,9 @@ sources:
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/qt6-xdgdesktopportal-platformtheme_6.8.0+dfsg-0deepin23_mips64el.deb
     digest: 50fb06298f70a5c3045b95c5612e0229e28f180bca30bc577e6b1432878b0bfe
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/uos-license-content/uos-license-content_1.1.36.3-1_mips64el.deb
+    digest: e8b8e5c008dcb21057646a25f2459583f0bd1bc58a1c4f7b2caea5a038aa75c6
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/usrmerge/usrmerge_39+nmu2deepin1_all.deb
     digest: def7f740c6520d8c1b210b6c71fc648b4106abc22c16830a2dff68aebf24a058
