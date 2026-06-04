@@ -158,6 +158,7 @@ func updateYamlFiles(content []byte) {
 		"loong64/linglong.yaml",
 		"sw64/linglong.yaml",
 		"mips64/linglong.yaml",
+		"riscv64/linglong.yaml",
 	}
 
 	for _, file := range yamlFiles {
