@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	deepinRepoURL = "http://10.20.64.92:8080/crimson_runtime/stable_20260520_2"
+	deepinRepoURL = "http://10.20.64.92:8080/crimson_runtime/stable_20260610"
 	uosRepoURL    = "https://pools.uniontech.com/desktop-professional-V25"
 
 	deepinCodename = "stable"
