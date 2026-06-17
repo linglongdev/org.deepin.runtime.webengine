@@ -4,7 +4,7 @@ package:
   id: org.deepin.runtime.dtk
   name: deepin runtime
   kind: runtime
-  version: 25.2.2.7
+  version: 25.2.2.8
   description: Deepin Tool Kit Widget
 
 base: org.deepin.base/25.2.2
@@ -266,11 +266,11 @@ sources:
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/l/llvm-toolchain-17/libclang1-17_17.0.6-5deepin7_sw64.deb
     digest: 9fb6d6c4866b297889099f1751595693d4cd70e7a24473434404409caf1dafb0
   - kind: file
-    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/cups/libcups2-dev_2.4.16-1deepin5_sw64.deb
-    digest: 6145b6108793a7b2f986325dfa3639068adc796eeb7bf47b09ac6e63f90d6604
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/cups/libcups2-dev_2.4.16-1deepin6_sw64.deb
+    digest: 563ac65609b9219babc37d7df9cd6c87fdd2b5226eecb989182af1e9fcf06683
   - kind: file
-    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/cups/libcupsimage2-dev_2.4.16-1deepin5_sw64.deb
-    digest: b059697d3bd9c1365ee5abab64779f917b851ea0995588070e9cf70efc7f65b5
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/cups/libcupsimage2-dev_2.4.16-1deepin6_sw64.deb
+    digest: 47f8dbf9216efb4fce8dcb96f91243bd5aa2b5d236e0bcbed45461bf9c1b5296
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libd/libdeflate/libdeflate-dev_1.23-2_sw64.deb
     digest: 14946cbee99334e3a8a2cb3cd39cfeaaf7dcaf43d0415a98d7f4c8d8eaa0ef87

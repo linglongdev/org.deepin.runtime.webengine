@@ -4,7 +4,7 @@ package:
   id: org.deepin.runtime.dtk
   name: deepin runtime
   kind: runtime
-  version: 25.2.2.7
+  version: 25.2.2.8
   description: Deepin Tool Kit Widget
 
 base: org.deepin.base/25.2.2
@@ -272,11 +272,11 @@ sources:
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/codec2/libcodec2-1.0_1.0.5-1_mips64el.deb
     digest: 543fae449b15548d2c4bd2c14e7b6c573a448185f65f85560481fb7ce44b2d79
   - kind: file
-    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/cups/libcups2-dev_2.4.16-1deepin5_mips64el.deb
-    digest: 2f5b9eb982a84b21adfe3e00e0dee89551f609ba117dcadbb8768c3eee1fed19
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/cups/libcups2-dev_2.4.16-1deepin6_mips64el.deb
+    digest: 0c3bb19aa9b3dddfe8357bc97e1f782c894d4a9adbf5c7f2d4f8bcbf5f42b700
   - kind: file
-    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/cups/libcupsimage2-dev_2.4.16-1deepin5_mips64el.deb
-    digest: e59b8793d9dc2dd75414dc89e7087d02d7784bb7f53d12cef2dc8d363aba0218
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/cups/libcupsimage2-dev_2.4.16-1deepin6_mips64el.deb
+    digest: 41f141736501b53cd69d20ee515143eee10987459a4ec252618231fdbc9d2ed4
   - kind: file
     url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libd/libdeflate/libdeflate-dev_1.23-2_mips64el.deb
     digest: e3d8d7589e6fd235c323dd766e9bdee4c639c140e1731b134c8999519e2161b8
