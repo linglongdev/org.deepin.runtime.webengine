@@ -200,3 +200,906 @@ sources:
   # linglong:gen_deb_source install deepin-shortcut-viewer
   # source package uos-license-content
   # linglong:gen_deb_source install uos-license-content
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/assistant-qt6_6.8.0-0deepin3_sw64.deb
+    digest: 637b3d77dbb06fcaac2d23df85135d52cc8b4a4a1cab3b5aa3d213e27e40a4d1
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/b/binutils/binutils-sw-64-linux-gnu_2.41-6deepin12_sw64.deb
+    digest: fb3608dc6cf3bf9cb42c2a0fd7580576a5b4bdef623b58da73b01df4825387ff
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dbus-broker/dbus-broker_29-3_sw64.deb
+    digest: 5e82019edd882301ea455fbd5845716e96bfc9b765e4e9fa7b756c847f1cdcf7
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt5integration/dde-qt6integration_6.7.44_sw64.deb
+    digest: 962afad2988ad3b1454ef07ccd14d0720602d0b7716be1d6bd4a275906a6f3d9
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dde-qt5platform-plugins/dde-qt6xcb-plugin_6.7.44_sw64.deb
+    digest: 4c980c93c87b639ec81c02ee10e3aa5a88ea01ed27fd3341eeecc9aedf17968f
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/deepin-shortcut-viewer/deepin-shortcut-viewer_5.5.6-1_sw64.deb
+    digest: 708e4df6e4d8a00e9523171ddcc3f2201c5407329a27400a9d76256a70d33201
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/designer-qt6_6.8.0-0deepin3_sw64.deb
+    digest: a4d1a2405bc8e0bf57bd0c07245a95a4d94372a5192c98c01d4c9b925b926803
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dpkg/dpkg-dev_1.22.6deepin12-4_all.deb
+    digest: fad8f1397b8b2aec17372295b204718ffc7fb30e331a40618eca045011e7066c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkdeclarative/dtk6-exhibition_6.7.44.1-1_sw64.deb
+    digest: 63c605bbf0a89b418b138d39229ba8cc9a719e3b6c400169536dea5127524bde
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/fcitx5-qt/fcitx5-frontend-qt6_5.1.9-1deepin1_sw64.deb
+    digest: 720ed4a6f8c41b607387cda337dcf90e41a0033493a18cd387a66d59845b4d85
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/firebird3.0/firebird3.0-common-doc_3.0.11.33703.ds4-2_all.deb
+    digest: b88c70169deca560a7c397109e8415670c418952cde75acf7d8a9f30e65a038a
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/firebird3.0/firebird3.0-common_3.0.11.33703.ds4-2_all.deb
+    digest: 92f655343e3a68b3e61d2ff106fbab0220f88d735aca136d06f70e6aeaf3488c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/fonts-noto/fonts-croscore_20201225-deepin_all.deb
+    digest: 020d64f4445626df0459a90da2289be4339787f1c9c452033868f9c4e9ee6036
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/fonts-freefont/fonts-freefont-otf_20120503-10_all.deb
+    digest: 168bd4a599d28b61bf02c7747def6afca8f8432fdd578e1f5ab4a641812a6c1e
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/fonts-freefont/fonts-freefont-ttf_20120503-10_all.deb
+    digest: 717d65d783f6ecfc3f34d689ba44f6c2de21ba63347302e050be5a99651e63e7
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/fonts-liberation/fonts-liberation_2.1.5-3_all.deb
+    digest: f1e1097c47d068077ccec7e41e45508739f7ea8df17ac4de96ad121a684d5c40
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/t/tex-gyre/fonts-texgyre_20180621-3.1_all.deb
+    digest: 4c15a3c87233ccceca0f097e421de6b54d5d2c3c72c4d5e17b805bf2b82a6066
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/g/gcc-12/gcc-12-base_12.3.0-17deepin17_sw64.deb
+    digest: 06e2366baf3837c4f032c621a552477b7f491ffcafe9552a7eaee8fae11621f4
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libg/libgudev/gir1.2-gudev-1.0_238-6_sw64.deb
+    digest: b153c562b8f32b245be27ab18488371d494c81169c0488e69f2a2e5ceea73e45
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/g/gcc-12/libatomic1_12.3.0-17deepin17_sw64.deb
+    digest: 562eaf977fbe0b0444d94e99a93c9bbf72384ec720c43892740c79b7e60ea85b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/ffmpeg/libavformat60_6.1.5-0deepin3_sw64.deb
+    digest: 08b8814b73bab559935e34e4c7769157ccec7d7dce7828bc03458695d2eec4dd
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libb/libb2/libb2-1_0.98.1-1.1_sw64.deb
+    digest: 40f08244cf906c4740555957b317145f62e9cb91167ba66f0e7189cc93cac61b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/util-linux/libblkid-dev_2.40.4-3deepin8_sw64.deb
+    digest: 274d25a100e5513f74ffe194a9968e3f3f25fe218f59d80b34da030a98b4efe1
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libb/libbluray/libbluray2_1.3.4-1_sw64.deb
+    digest: 644543f6ccb07793abda8191e8452bed0cdde0eadcf68e636ff7d175de908053
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/b/brotli/libbrotli-dev_1.1.0-2_sw64.deb
+    digest: 059b4156dad1930d82d0b69e0c7a6442ac3a7fde08c4100b9b7783f79ab468b9
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/b/bzip2/libbz2-dev_1.0.8-deepin2_sw64.deb
+    digest: ea70613c744572c494ec90860460777a8e74a5d41b261032b7733d1072fda2ee
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/chromaprint/libchromaprint1_1.5.1-4deepin0_sw64.deb
+    digest: c11e7e1cb37cea5c5c0e3ffc762a12a25c69ed17451518bd3f6f6508f63a4309
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/cjson/libcjson1_1.7.18-3.1deepin1_sw64.deb
+    digest: 5119e13567ff027c69c9600d28c2db3093a57558c4e8b603a4708c228b26add1
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/l/llvm-toolchain-17/libclang-cpp17_17.0.6-5deepin7_sw64.deb
+    digest: dadbf394c799610ae78e62f42e410444eb18dd775b440b5fc3be9a98eb09cc38
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/l/llvm-toolchain-17/libclang1-17_17.0.6-5deepin7_sw64.deb
+    digest: 9fb6d6c4866b297889099f1751595693d4cd70e7a24473434404409caf1dafb0
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/cups/libcups2-dev_2.4.16-1deepin6_sw64.deb
+    digest: 563ac65609b9219babc37d7df9cd6c87fdd2b5226eecb989182af1e9fcf06683
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/c/cups/libcupsimage2-dev_2.4.16-1deepin6_sw64.deb
+    digest: 47f8dbf9216efb4fce8dcb96f91243bd5aa2b5d236e0bcbed45461bf9c1b5296
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libd/libdeflate/libdeflate-dev_1.23-2_sw64.deb
+    digest: 14946cbee99334e3a8a2cb3cd39cfeaaf7dcaf43d0415a98d7f4c8d8eaa0ef87
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/double-conversion/libdouble-conversion3_3.3.0-1_sw64.deb
+    digest: 9a5959b2ce65ee59add08f1a3887eca683800d7e78ddfb86747bd3e501f9234e
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dpkg/libdpkg-perl_1.22.6deepin12-4_all.deb
+    digest: acce1fb5600f5a146c41a84e43e1409b9e42100bc771d4b29e51f8b7fc02b743
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkcore/libdtk6core-bin_6.7.44_sw64.deb
+    digest: 2084b066b53cac00d52d1d5ba1f3ab6da9654d441bd04004fed51055f086cd0b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkcore/libdtk6core-dev_6.7.44_sw64.deb
+    digest: fc6deb69ba339d0fb18040e65206479c9297d356e5f3e14abe3906f9fd8b505a
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkcore/libdtk6core_6.7.44_sw64.deb
+    digest: ee9f84ff5bff225f0570b25e907747f83834cc3bde91a4e8f89116274960d8b9
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkdeclarative/libdtk6declarative-dev_6.7.44.1-1_sw64.deb
+    digest: 95c50a1615645a588f9deca895c0082ad6959075ec97b83204c9aad9bc85733a
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkdeclarative/libdtk6declarative_6.7.44.1-1_sw64.deb
+    digest: ae0ad320d9dbd63bf1c2968a224e17a7c9b1981ed5938cd7f79c79a60069620b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkgui/libdtk6gui-bin_6.7.44_sw64.deb
+    digest: 0a4faa04e73e0020b074c3b970210cdf58ed33c2b6e9ed29dc23deeb93d68e73
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkgui/libdtk6gui-dev_6.7.44_sw64.deb
+    digest: 2e810fb952ac05d08fcff283a910e982f043137b47ab01ebb427043e24b4ed8e
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkgui/libdtk6gui_6.7.44_sw64.deb
+    digest: a147bacd95c64c3ab9c0accabcc99dd22c60f07f169db579ec5187703e8c60c0
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtklog/libdtk6log-dev_6.7.44_sw64.deb
+    digest: ec83d1a1ea6c9e7b2442fb72cb6303812297a3637ea5dfaf7817535017519714
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtklog/libdtk6log_6.7.44_sw64.deb
+    digest: afd4e9bf48966360fd8169dcb576ad27acd7d764612a7e59c36f9815a0fc0d83
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkwidget/libdtk6widget-bin_6.7.44_sw64.deb
+    digest: b475f9dd75d70bd14575c88eedf050068a934721466d3ddd0eb7e8829dfbe047
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkwidget/libdtk6widget-dev_6.7.44_sw64.deb
+    digest: e465875ad4a64249dcd7cdc557fcb1d3043c0b9a56d8a851cce90443727d01cb
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkwidget/libdtk6widget_6.7.44_sw64.deb
+    digest: 475ea2269dbebf97792b492a6700f75791b517aa587fd2cde100c8546b6d5a61
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkcommon/libdtkcommon-dev_6.7.44_sw64.deb
+    digest: 20522aa50589b5d754160d9064268c41ecbb52d939d31667019f511e92f5e4cf
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkcommon/libdtkdata_6.7.44_sw64.deb
+    digest: 81ce54abb36ac2996e9c2ef87a5c6451ed34d0d55a38907353e33cb64a75c729
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libe/libevdev/libevdev-dev_1.13.4+dfsg-1_sw64.deb
+    digest: 44c5aa8183d13124586a6347441cc3138ed0916f08692b0b6a7fea264cb91219
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libe/libevdev/libevdev2_1.13.4+dfsg-1_sw64.deb
+    digest: 1decf3be540c4850c69b29ffe3db7acb7bc9ffa3e3abaddbef82320422b405f3
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/e/expat/libexpat1-dev_2.8.0-2_sw64.deb
+    digest: b6dcbf77b10f10c1a3c3b0a4399ca4c3e808adcd1fd743cd82c50315eb405ab9
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/firebird3.0/libfbclient2_3.0.11.33703.ds4-2_sw64.deb
+    digest: 3ae03127cbdd7fe5d67fddf47cc7b85a555baa4d1c77aa565fcca895ffd69bb3
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/fcitx5-qt/libfcitx5-qt-data_5.1.9-1deepin1_all.deb
+    digest: 8d15384825f8039e6ff1380d083b8f4da80a99b6dfff3d465e81bc0e08eb4d55
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/fcitx5-qt/libfcitx5-qt6-1_5.1.9-1deepin1_sw64.deb
+    digest: 3cf4f07ffdc30a9cda8f9a12ac376db4947261c354d28ee9fea4e48fca4e96b7
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/fcitx5-qt/libfcitx5-qt6-dev_5.1.9-1deepin1_sw64.deb
+    digest: 31c85f15b3208929724e06f0ece3fdd8c36949caf046c216fbf2f8b0f7356e90
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/fcitx5/libfcitx5utils2_5.1.12-2deepin6_sw64.deb
+    digest: 8fb611604eb64cad6aa62b1482bc25ce28306f224f0ba11597b47cb940f5d6fc
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libf/libffi/libffi-dev_3.4.6-1_sw64.deb
+    digest: 98f3112160f9398716b355196563e0b54ee5b9da5761a43b503bbad08c41d098
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libf/libfile-find-rule-perl/libfile-find-rule-perl_0.34-1_all.deb
+    digest: a884761dc559eb1733a03ca06e1ab5c71f692d9a91da424bf0061297d5cd4017
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/flite/libflite1_2.2-6_sw64.deb
+    digest: ded153af2dfa297dea6941f8cdce88eda38e30d853b74ef795c73286dbd85280
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/fmtlib/libfmt10_10.1.1+ds1-4_sw64.deb
+    digest: 8d91f5cdedbaba94a370a38a625857a8aae5b17364cedcc2b1232fe6075f608f
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/fontconfig/libfontconfig-dev_2.17.1-5_sw64.deb
+    digest: 890c8a6d1f57c635d2f08ed4cbc260731a1079a3c387e54704f324a7e9cb5b30
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/freetype/libfreetype-dev_2.13.2+dfsg-1deepin2_sw64.deb
+    digest: 12b336de4e05f5a4a283fd70216142a29307d27702240f70d8072431d5973f63
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/g/glib2.0/libgirepository-2.0-0_2.80.1-1deepin3_sw64.deb
+    digest: 991c6760378a9d7ddba150ad9a60f60300a02cdd4ee17e48e68bd73467c86627
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libg/libglvnd/libgl-dev_1.7.0-1deepin1_sw64.deb
+    digest: 7c1f380f70804db3cae087f0597518e7e8df453e01666f0a077f191b7baf986f
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/g/glib2.0/libglib2.0-dev-bin_2.80.1-1deepin3_sw64.deb
+    digest: 3ec34cd13c21f7ba1f2b0044b29f25ad98d8a7443b06e936138e38b1ccc3756d
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/g/glib2.0/libglib2.0-dev_2.80.1-1deepin3_sw64.deb
+    digest: 3c326b3cb87ddae58ca6665565181f42695549b5eeb05f11c0481c838fa26ada
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libg/libglvnd/libglx-dev_1.7.0-1deepin1_sw64.deb
+    digest: 64b24042c2325261a2748412a397540d0b0b28b7713faee9a48eabcae31b8b32
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/g/game-music-emu/libgme0_0.6.3.2-7deepin_sw64.deb
+    digest: 7ec93eec3c33f04b8abe73df6ad642297018648380b31508c1e2e3c20918fd7a
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/g/gst-plugins-base1.0/libgstreamer-gl1.0-0_1.24.13-0deepin1_sw64.deb
+    digest: ccd7e4bd17c28031e0ed0f2114f06372e0bdb5a90963920d484de423a18643be
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libg/libgudev/libgudev-1.0-0_238-6_sw64.deb
+    digest: 62a51454dd29af9d43a365b6796dbdcdbd7dbb426b090724237d0a65e9ff6545
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libg/libgudev/libgudev-1.0-dev_238-6_sw64.deb
+    digest: 3b07f4d8149ed5da8ae73cc126dfe1cb744c79e647522da77762cd642aff4c68
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/g/gumbo-parser/libgumbo2_0.12.0+dfsg-2_sw64.deb
+    digest: 9c8c2c342cbadbf59b247e47466670fd436e707e5e742f673d90ca50eaabd8f2
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libi/libinput/libinput-bin_1.26.0-1deepin6_sw64.deb
+    digest: 294c6933f9ebbefc9160799f15c8584bcc136fc71f749a4ba69acecb0a4f6b66
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libi/libinput/libinput-dev_1.26.0-1deepin6_sw64.deb
+    digest: bcafd493b75ef939280fe45f703cdf35535252b2c1f827bce05df106dff0e9fc
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libi/libinput/libinput10_1.26.0-1deepin6_sw64.deb
+    digest: 95b96b9541ed245d8ed61f8b353525367efc8abacc1d3c780657005022717d19
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/j/jbigkit/libjbig-dev_2.1-3.1-deepin1_sw64.deb
+    digest: f9f0d5e302fc4fd63d07e097355649b24fbf52369d0072af27d92f0aa7b4b055
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libj/libjpeg-turbo/libjpeg-dev_2.1.5-2_sw64.deb
+    digest: f71db94efeace5c3811bfaa5f80445a5911b9552f15630799f5e0ca92ac2d7c8
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libj/libjpeg-turbo/libjpeg62-turbo-dev_2.1.5-2_sw64.deb
+    digest: eb64529fd8b75035dfe09b25df3bf90bde700e1088fa1a94b667ff8db12ab7c3
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/l/lerc/liblerc-dev_4.0.0+ds-3_sw64.deb
+    digest: 05fbd512accad94b2cb5cb050ad8a386f3aa535a52f825594b047be0a2b4eea1
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/l/litehtml/liblitehtml0_0.9-0deepin1_sw64.deb
+    digest: 16ffa9c58a2442da611b0129702df810a80331ea9618db2c1fe8c74811c0a2e9
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/x/xz-utils/liblzma-dev_5.4.5-0.3_sw64.deb
+    digest: 2d779af18a1d50d00ba136f4a41cd80a0643b7d766e87b2e5a7b9a9dbe9f7152
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mariadb/libmariadb3_10.11.6-1deepin0_sw64.deb
+    digest: 18506f3f401810e9bd2fa8eb0f585d63d2ae8cf4ef50faf3d658da49bd1f4fc0
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mbedtls/libmbedcrypto7_2.28.8-1deepin1_sw64.deb
+    digest: c08c23613c8626f573003238c0f9e11b81a97485b80da498c4f4386b74912792
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/md4c/libmd4c0_0.4.8-1_sw64.deb
+    digest: e8ef3bcc7161e3d4a6dab5e2affa8b1972ded851642ffcbf67ffd74a664dd20e
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libm/libmng/libmng1_1.0.10+dfsg-3.1-deepin1_sw64.deb
+    digest: 9488e75cb1da0a6799c452264d5f409a54fed9b7f38da5a2a98c3f5730df3d6c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/util-linux/libmount-dev_2.40.4-3deepin8_sw64.deb
+    digest: 53845c1dcd088b587df14a7c300f9e875fc586bd932d9fc9005a120bfdbe6571
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mtdev/libmtdev-dev_1.1.6-1_sw64.deb
+    digest: 81291cdacea7e14c8f5fc6dd1c294f3e8b2079e621b4fd169f498fcbb02cfa56
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mtdev/libmtdev1_1.1.6-1_sw64.deb
+    digest: 1d1762d0d90f63182682a9176a4c6de20665723d1d5e3ad1000ac2108b120111
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/n/norm/libnorm1_1.5.9+dfsg-2_sw64.deb
+    digest: 18f95c060cfa680e31197f4d635ff668f521ee1fd0cae7ebd19640325b3a6116
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libn/libnumber-compare-perl/libnumber-compare-perl_0.03-2_all.deb
+    digest: 2db209c6c03891315f74449a581caa9f9789ffdc343d8cd2659f24177e17b1c8
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/unixodbc/libodbc1_2.3.6-0.1-deepin1_sw64.deb
+    digest: a44864078d8d049dd52ffeeec2f62bbbe86154a324e1a53643465f51525b0ce5
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libg/libglvnd/libopengl-dev_1.7.0-1deepin1_sw64.deb
+    digest: 55ae02c337f43ebb6ac40e0933da2d78490380b9a8e55e45dd5b0bf8c69571ae
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libo/libopenmpt/libopenmpt0_0.5.13-1deepin0_sw64.deb
+    digest: 566c2cbc6872d2ad5ef62bf500aa94fe125954501d98655f0010b30ef04590ed
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/p/pciutils/libpci3_3.10.0-2_sw64.deb
+    digest: bae57f2751211da8758ef67580dec6b4316c4ac1bba3cd479584a6d7e580f18b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/p/pcre2/libpcre2-32-0_10.39-2_sw64.deb
+    digest: f9cc41be7766479670f160c6b18093d9040bea0296ea33713bd60bbec9bf04f4
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/p/pcre2/libpcre2-dev_10.39-2_sw64.deb
+    digest: 9bdfba3017035d38c8c18f6bce4ee874456d303ccda40c95ddf7f1a3eaf87d68
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/p/pcre2/libpcre2-posix3_10.39-2_sw64.deb
+    digest: e2fb22a0a137e750de84de35e042c555e0975f13b123fa56bfae5ff286e6d2f8
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libp/libpgm/libpgm-5.3-0_5.3.128~dfsg-2_sw64.deb
+    digest: 0a52f717e4db53a759c0e5d329d50750afad83f98f84f0ae216bc188d310cf76
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/p/pkgconf/libpkgconf7_2.5.1-4_sw64.deb
+    digest: 49b9aa67671dc8c9851d052c8bc15139b60f7599abe8c2d432069b98104c91fc
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libp/libpng1.6/libpng-dev_1.6.53-1deepin5_sw64.deb
+    digest: 3c0d8ed9c7721fb43eb3919336572745aee8b9e0a4b4efb4e9e14e19574b2e56
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/p/postgresql-16/libpq5_16.3-1_sw64.deb
+    digest: 8aa40a0d5b6abe55cd739ae88f575d57ea18959e5c873d4d7ffc88c391c9dcc5
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libp/libpthread-stubs/libpthread-stubs0-dev_0.4-1_sw64.deb
+    digest: f5df7e4bc9a2438559a1a66f35f29e2b4782d616ea46990892fc7e6c32b4a86c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6concurrent6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 2d547412ca8d6a85d12fef30874c05fc4fddd3b11fb90aef97cc8b2e89d120ac
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-5compat/libqt6core5compat6_6.8.0-0deepin_sw64.deb
+    digest: bfce73da13b0275bb29663ca83454c37237f3f2ce6bd357fbef24379cccd43b3
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6core6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 9648d09e78dcb1b2da412b9fcfdddb1fc7fb3cbce786d0e4a1381ac90cba9870
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6dbus6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 368b6f8ff7d1dea036cea5f76f8f360c877ac87eae62417f70fbf9480b14dd34
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/libqt6designer6_6.8.0-0deepin3_sw64.deb
+    digest: 2fb8ac44d4a7dc28d9a4680f7d154ad81f57eb68743f3a3a37d8f75d472dde73
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/libqt6designercomponents6_6.8.0-0deepin3_sw64.deb
+    digest: 94a5913dff0e8d210851f9c27d7f3dbbd630018a23695e77f72eb3d284590cdd
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6gui6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 379653fb37452f1e11ce49ec4ed19531d4c83ef5675b58d37a07af153b9920e4
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/libqt6help6_6.8.0-0deepin3_sw64.deb
+    digest: af890070bdc812b50bf57bd397495e63bf5f8979757fc4a6de369dfd5173501e
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-multimedia/libqt6multimedia6_6.8.0-0deepin_sw64.deb
+    digest: 82bcc14729685fc8977b8246198534a41d5b9286fa78b34049c974ddcfdf461c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-multimedia/libqt6multimediawidgets6_6.8.0-0deepin_sw64.deb
+    digest: bcf6f26927cde67ca58c44e22bcc9c16cbce2cf7ad6694bed00a46af59e8c055
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6network6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 741c21278a946243f74113e1a4949db978f2027416b6b2c2be71e674b46e3a32
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6opengl6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 60941397e7f5392c46a60eba37f41d13914c678952a6fe9befb6e8a5b67984fe
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6openglwidgets6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 80a4caa3bfa9b26d3486ba25627b3370f745997f7a71ff235dcca98dcddff2d3
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/libqt6pdf6_6.8.0-0deepin5_sw64.deb
+    digest: df7cd59a0d7480ff849d206e19124f4a2b6c1c76225429829738d70cb257b34a
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/libqt6pdfquick6_6.8.0-0deepin5_sw64.deb
+    digest: f5a24b9039a392f4e62724d77c07ef795f89911dd929102f5f0f28591550f5da
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/libqt6pdfwidgets6_6.8.0-0deepin5_sw64.deb
+    digest: b35e7b3235117aeac81a7e7581e035db22e3af725210447058139a118196f544
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-positioning/libqt6positioning6-plugins_6.8.0-0deepin_sw64.deb
+    digest: c62f69341b36a65db782103e6d9772597f881d942e1c9bf174460944202c0004
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-positioning/libqt6positioning6_6.8.0-0deepin_sw64.deb
+    digest: 3691f952dadbc140fe9de10377054b7a13b33e96190e616089a6aec5cdc274a9
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-positioning/libqt6positioningquick6_6.8.0-0deepin_sw64.deb
+    digest: 7aa032449ab24c83c387c7099f2cebbc865fba7212d02ccdd76dd5a7fb62d9f6
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6printsupport6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: d52b5192123792b4868cb4558518b211b6905812eb0a8b6ff3347c6c22557f52
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/libqt6qml6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 8860f4b660dbbdf4e8a9628eb83134829ecb6c5de440d85b9bf6432c1be0ae7e
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/libqt6qmlcompiler6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 1dfa29c38f71c71089f739b178483e4e414d940ed7353216fab7564b58c1bba3
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/libqt6qmlmodels6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: bf1822faa1ac594dcc13ed3254f75d975000347f7f9721e63c9c6febd0aac799
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-quick3d/libqt6quick3d6_6.8.0-0deepin2_sw64.deb
+    digest: 1a27dfea6c0235ea06039250c129ac38c115e8b28630a99c350f588dde4a7419
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-quick3d/libqt6quick3druntimerender6_6.8.0-0deepin2_sw64.deb
+    digest: e284aff662b7d51bf9799dfa003d5743216fefc31507cffb854c29dabb770db4
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-quick3d/libqt6quick3dutils6_6.8.0-0deepin2_sw64.deb
+    digest: 8b85dcbf00c9602814ee1e4c0990c1022c0e9ccddb048eabefef61928e2f7e92
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/libqt6quick6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 71c0b60e20e464229076cd0050e6bfc8fdc6c03ac910b1873b49ab83c10873e4
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/libqt6quickcontrols2-6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 8d2c21353a90d9d7772babd6e8a1d486fb7694ad5a63f997831c3c453114a9ab
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/libqt6quicktemplates2-6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 643ab54734e4c27f7376d0dded5290cb4eefb81933ae310bdd24e4d4cf813aec
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/libqt6quicktest6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 65f6020900829a3f3d2336e8b951d8a57ce40f6b5a4dd505fac5e4449bc739ec
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/libqt6quickvectorimage6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 1f199f278ce3d899e485fc74ef25c5e231df35bd268a234883855af395d7833f
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/libqt6quickvectorimagegenerator6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 55054e5f3c53252a0ed2464e7c2e538764ecd65a6aa2a0c57325be43d48c0cb4
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/libqt6quickwidgets6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 829ffe76bb64d3dd20741beffda420230b09f3d05d025853d342ac2e81950869
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-serialport/libqt6serialport6_6.8.0-0deepin_sw64.deb
+    digest: 6d3badcf9bc785393cc8b82effb5795335849d29b53f46e347c475ac5ecce6e1
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-shadertools/libqt6shadertools6_6.8.0-0deepin2_sw64.deb
+    digest: f60963d4f44f2121929e5f1df9db948aa72307da0fed67fd8212879bc1ac264e
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-multimedia/libqt6spatialaudio6_6.8.0-0deepin_sw64.deb
+    digest: bfc11a7abfa2e2f0ae1551c748f33f65d1a2e09cdd703215383656e220357127
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6sql6-ibase_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: e5dde83f5433fa836b97db1477ff90dad230a72bf66b88ddc281ab0ef29770ac
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6sql6-mysql_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 849b246d0f0bf71e139ae07b3a2d55100fcede3f356f3f121dd326f4b6491d0e
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6sql6-odbc_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 82a9e3d2f3ce2b9b47c34f602fac947d2b45c4b19314b92552b3c383fa970c23
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6sql6-psql_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 98434b0b706587dfbf3e6f7a15488ee4bec1ecb43ee91e7fe4e45162b5437573
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6sql6-sqlite_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 9a0b9224d72dbbbcc4a139504910b038acbf35eeab0efdc57164a9130a9ce976
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6sql6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: e6acf934e50a3cd98847fba2f5196601454aa77da23a312b1d3edadc7cee4feb
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-svg/libqt6svg6_6.8.0-0deepin5_sw64.deb
+    digest: 4f9c133f77288eb561b973fa2a3bea36fc37458f0565a56ba5bd9c5acfbd7b99
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-svg/libqt6svgwidgets6_6.8.0-0deepin5_sw64.deb
+    digest: 78b658ceef2e3b55feca2b27a84327e020511bd209c4b0c69850f41a0d0ab578
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6test6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: ea48cc006f009ed05e6b45d8d687f7f5c866e3a2455ce290dd6d4956978af0fa
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-speech/libqt6texttospeech6_6.8.0-0deepin_sw64.deb
+    digest: 096babe71a248ec63154728bfa6d059a948267016a768babae4d073aae91f209
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/libqt6uitools6_6.8.0-0deepin3_sw64.deb
+    digest: 49d67f38a3e2cae5bfcae1404fd797aa3d030ce0d5a36ae11988464c8bb9caff
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/libqt6waylandclient6_6.8.0-0deepin10_sw64.deb
+    digest: 4b1d730886f95c0d08c67aac578bd7e9ac477bb5cee8d0a2916326fcd8279a8e
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/libqt6waylandcompositor6_6.8.0-0deepin10_sw64.deb
+    digest: 56774a87a15243c123dee02ff442a90bbb61f6def9a39be6351c1505395f4f72
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webchannel/libqt6webchannel6_6.8.0-0deepin_sw64.deb
+    digest: 9f1a492422c82be3e340228a310306182b24c820346e71f08a1e7a1b277e96f5
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webchannel/libqt6webchannelquick6_6.8.0-0deepin_sw64.deb
+    digest: 7175f787aaffb45db51b1d46b49f8feebf44fdf962e9ca8e26ceff246caa9482
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/libqt6webengine6-data_6.8.0-0deepin5_sw64.deb
+    digest: 00f4b75c8184c7d2a7882a9ffb9cb68defecfaa3e197220872c49e10a0644a55
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/libqt6webenginecore6-bin_6.8.0-0deepin5_sw64.deb
+    digest: 88e37ac46e0ef3cb27c9b555a3b066b8613b43b6a88bfb5aebe49f8a545f99e0
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/libqt6webenginecore6_6.8.0-0deepin5_sw64.deb
+    digest: 1ea54850949e580bf2ae3f5da0a059d9f5a699cb16d14ac6899b54bb723e0601
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/libqt6webenginequick6_6.8.0-0deepin5_sw64.deb
+    digest: 722dc36d00cb1fd221a3b5198d302711189f799811319305d96e7ca6b336385c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/libqt6webenginewidgets6_6.8.0-0deepin5_sw64.deb
+    digest: 8a01c8e1df744b88b2c1ef2de11f09e7d70c2fa11e49aad185684e37f7d205d1
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6widgets6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 8a0a72e2062df2654d4cdbfdc62c460075dd3d553feee8ebd09be7709d10999c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/libqt6wlshellintegration6_6.8.0-0deepin10_sw64.deb
+    digest: 8dbb09fdde90c8ad154c6daf5c188f381c9bc33fdc23b6b9b44ac2848d73dddf
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/libqt6xml6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 542c84d7858356a10d973e7f26db8e5dcdf7eb97ac76213ea426cff8ca05b8c8
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libr/librabbitmq/librabbitmq4_0.11.0-1_sw64.deb
+    digest: ef513a9405501297da76fa03571b30c32a8ae46368e51ef380a054f03da983a5
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/r/rust-rav1e/librav1e0.7_0.7.1-7_sw64.deb
+    digest: 7c5d81eea55252f800b3fbbbc2c87dfb2a022a66c85775d861403362f8abe633
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libr/librist/librist4_0.2.11+dfsg-1_sw64.deb
+    digest: f61443f7e0e498f2d6d42456906199e49add1e2ce2369eb6e1a67c888438f5c7
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libs/libselinux/libselinux1-dev_3.5-1deepin10_sw64.deb
+    digest: 73099c407f74a963c1a8a06b3eec385e0b7689229bfc2c762aead7266b4f9e39
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libs/libsepol/libsepol-dev_3.5-2_sw64.deb
+    digest: 38c8691e9251077f36618cd52f566888fa76b0ebb7b34b023ffbd7ad57cd3d00
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libw/libwebp/libsharpyuv-dev_1.3.2-0.2_sw64.deb
+    digest: 0795adef6d0ecb1cf3114a86da9ab4c1735347892f5ecb1405cbdad0721bc2ef
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libs/libsodium/libsodium23_1.0.18-1_sw64.deb
+    digest: 7a3e5929a514145f926a88285fc628a645651831da2fc590c1c08b7674c4a77a
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/s/spdlog/libspdlog1.12_1.12.0+ds-2_sw64.deb
+    digest: 4b4b3622f1976266dd799459f694487c0458e4511803c3a7270752886e7d21d7
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/s/speech-dispatcher/libspeechd2_0.11.5-5_sw64.deb
+    digest: 9dd6ac964d4cddfd306e8306492a3e368e095a5c66784c7ad4c357712fa9696c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/s/srt/libsrt1.4-gnutls_1.4.4-4deepin0_sw64.deb
+    digest: 9dfb21b89d28063d6691dcf57785b22097f835c805fc746c6579163117c89ca1
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libs/libssh/libssh-4_0.11.3-1deepin2_sw64.deb
+    digest: e1a13df2bb91dca9a91868bef1676ca159dea575066d86fff4e4a774ad3f4bcc
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/s/startup-notification/libstartup-notification0_0.12-deepin1_sw64.deb
+    digest: 3f6c529d51a89edfa371426cf4bbbcdac5bc349e16ab695694f3eda59aab9a10
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/f/ffmpeg/libswscale7_6.1.5-0deepin3_sw64.deb
+    digest: 5e3bd5f2bf0652ae86250d243a4832e2ea531203a69c80a52c815df896018dc0
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libt/libtext-glob-perl/libtext-glob-perl_0.11-2_all.deb
+    digest: ccc4fa8974ff0024bf69ae91e6c0cdcc806d58c8064629131c5d5b35e5643a06
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/t/tiff/libtiff-dev_4.7.1-1deepin1_sw64.deb
+    digest: ca50c3fa9104780392902f1d426a6ae50ea9d728cb71c2c9a343bc113685ab09
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/t/tiff/libtiffxx6_4.7.1-1deepin1_sw64.deb
+    digest: 23a2fc4c3fd4854cb67e9998d9acf331292c2a362b400ba03504370692789132
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libt/libtommath/libtommath1_1.2.0-6_sw64.deb
+    digest: 3b068912a815d2613efff613e6017a6758609f3e0a06cd808ece0ff8e4a31b41
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/t/tslib/libts0_1.22-1_sw64.deb
+    digest: 01a397c4b58f191345e517258349411fd0b7989e62326782f2eed0a7d587294c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/s/systemd/libudev-dev_255.2-4deepin31_sw64.deb
+    digest: 46fbec0ef0c2e0417a21905c1d26128ad9aa6f184f06dda41babfa558cd21335
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libu/libudfread/libudfread0_1.1.2-1_sw64.deb
+    digest: 669e5061413f6e279a548d363499e99bb2243d6c802f68698a6c3a30c8acda08
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libu/libusec/libusec1_1.0.0-6_sw64.deb
+    digest: b3de083fcc5373fc43385d9d39e1099c8ea2afdcb89975473471a53a78449314
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libv/libvorbis/libvorbisfile3_1.3.7-1_sw64.deb
+    digest: 7de76b62bd470b977d2da3b02d68d76ee5db843c1f9fafdeca2f1642829a92d6
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/v/vulkan-loader/libvulkan-dev_1.3.296.0-1_sw64.deb
+    digest: a2acd68379ecae875a851c278d1611466b0626f66754e5665daac72c7440ff78
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libw/libwacom/libwacom-common_1.12-1_all.deb
+    digest: 98b86f5355ad4a5b8f0b2fc0389890b558108884f256829a58c4e3f21ce05fc5
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libw/libwacom/libwacom-dev_1.12-1_sw64.deb
+    digest: 98e13f96edd2027df3d2977e4d7714174cd4a2a7ee2c2aff5bf2f719e7ffc20b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libw/libwacom/libwacom2_1.12-1_sw64.deb
+    digest: 2d2ff6f900649ab8ee3ef18dee279d0f9cee7f3cd22b4dacda845828d50f5b01
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/w/wayland/libwayland-bin_1.23.1-3_sw64.deb
+    digest: abc8d5c8736f718372d1216585237668423d6462496a0d867bec39e484944691
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/w/wayland/libwayland-dev_1.23.1-3_sw64.deb
+    digest: 3044a933d57b311b2d58847fd44ac422cdeec9784e44261c2336530ad4992d79
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libw/libwebm/libwebm1_1.0.0.31-1_sw64.deb
+    digest: 4a3279bf537e6751429c6fb3aba43878a15c1a85fb8197dbfcb58c543adb0e48
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libw/libwebp/libwebp-dev_1.3.2-0.2_sw64.deb
+    digest: 1a6054510aa29329df7fd4be3eba294c82c2c566f3d0ddd47fbd036d9a532143
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libw/libwebp/libwebpdecoder3_1.3.2-0.2_sw64.deb
+    digest: a4c646c5b274cb30902acdc30d23788784eedae44bf0ffb7b080538fa58cbac6
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libx/libx11/libx11-dev_1.8.7-1_sw64.deb
+    digest: ae2f0ec1919e0f381c70e623bb830da6f54b6fe91335c930af9f80feace6cb64
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libx/libxau/libxau-dev_1.0.9-1_sw64.deb
+    digest: 8478f5f0dd0e44b70611ab01e7b75a49d4841ed95d1511709b49614eee883196
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libx/libxcb/libxcb1-dev_1.15-1_sw64.deb
+    digest: 8376fdefda08cbf8e4e969ecb2689226374918839bb2458312e6048849594055
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libx/libxdmcp/libxdmcp-dev_1.1.5-1_sw64.deb
+    digest: 4d107289a638d0529eea09ec7f50623506bd28a2753753eeaabda49eab388db4
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libx/libxkbcommon/libxkbcommon-dev_1.6.0-1_sw64.deb
+    digest: 0cc28a32c0456a0321a0ef37e8921ff51a85a87512838f3ddc6f524b218e2ea6
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libx/libxslt/libxslt1.1_1.1.43-0.3deepin1_sw64.deb
+    digest: 806bdc3228ff49f74e04e25c68fbf5d1059ff660ed1da51d3f3dddff00b900d4
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/liby/libyuv/libyuv0_0.0.1888.20240710-3_sw64.deb
+    digest: 7e373f3d9a9ea90dc1d5b5bc6108d11a9047756d110013c044d511cbd013163f
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/z/zeromq3/libzmq5_4.3.5-1_sw64.deb
+    digest: a696ff71319f50e93983e6a529a9cdcd3a1d65427e2641b31551547820b58fbb
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/libz/libzstd/libzstd-dev_1.5.6+dfsg-1_sw64.deb
+    digest: 75eb97630fa90840cb3e3f58dde3699e63b9b0f7b990080ba10dafa51d97e31b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/linguist-qt6_6.8.0-0deepin3_sw64.deb
+    digest: ea84d76ed7cc94eb97167f4f346594e385f14900e2b4ea9ffefb7fa103268173
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/l/lshw/lshw_02.19.git.2021.06.19.996aaad9c7-2deepin0_sw64.deb
+    digest: 36058884333b93a6500a37732bc3a0225e1e3b2fe0c6ab90d3649f6e624b53a9
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mailcap/mailcap_3.70_all.deb
+    digest: cce511bae7f3f5b98b0582adecd80f9ea65f4451dcab63cc48db24bd148c5e05
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/make-dfsg/make_4.3-4.1_sw64.deb
+    digest: b7e3df9557dbfa935abfd4a757bf8fa47b2a23922885d0f6b9fdc0d989be3113
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mariadb/mariadb-common_10.11.6-1deepin0_all.deb
+    digest: 38773698c82cf0a52d1485a436150710dfe4e6a41ff646270bdcb873270dc004
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mime-support/mime-support_3.66_all.deb
+    digest: 404f0771ace32bd67385b504bfc0fdcc43c3522991a742845c00f69f48ccec74
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/m/mysql-defaults/mysql-common_5.8+1.1.0_all.deb
+    digest: 4fe0f839dcb7b2d7c576b2d24d6cf84f8c5e8cda01c0062e2129efd381ed93a7
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/p/patch/patch_2.8-2_sw64.deb
+    digest: 8f8066f8eae8de1f620119b25906bd469a3a79666633a7d2a366c1235585304d
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/p/pci.ids/pci.ids_0.0~2026.04.09-1_all.deb
+    digest: d5452f8c22f854471aa19b91259a7823533c67e996da0db7aa8f317f35d8bbee
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/p/pkgconf/pkgconf-bin_2.5.1-4_sw64.deb
+    digest: a3e6d77316db930b0e8e8172ca18db6211b5b0825a010a12a4c5efa01ab16095
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/p/pkgconf/pkgconf_2.5.1-4_sw64.deb
+    digest: dc1ffb3b24692fbf3c74a3f11073f3e9bdddbd8fe0b72ece7f54154b13f46238
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/p/python-packaging/python3-packaging_24.0-1_all.deb
+    digest: 97bdd2b563a0ab349024eed780a1a54f352238a046e820f5a243588f8f7849e6
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/qdbus-qt6_6.8.0-0deepin3_sw64.deb
+    digest: d8b268b8d6896a9b8f548ed8609c62a607795944ef3efeddbc5d0879e55f2991
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/qmake6-bin_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: ef156ad4c4a9d56259f7b600b2fde11cdacd5a6577d18a1b805d681c029f7848
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/qmake6_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: fe216841f359fefa5c0db264b36dcc3d8c5b7622ba458b5ab2a11e43a615b176
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml-qt6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: f98e4a797c884db606a40d47d3883f035314ca80904fb182293f1c4ef8b9654c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qmltime_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: fb8dd38ba90cfd30608dcf137ba4d3ae80bf98af7c8db32146ec78196511da43
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qt-labs-animation_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 62a4b40b805b665f2751f7ddf2caa5f40a4a1abb8331ee7945940792f0c1780e
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qt-labs-folderlistmodel_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: c2db7feed4b87d8266218f3d76df8bf4c96e6b3271cfe271831d6a08e823ea20
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qt-labs-platform_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: e35b334e602bcb929a7a94e1339171b7cf797392f3e36cd65dd806e8e86b322b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qt-labs-qmlmodels_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 9b6929f9e7cb1488f5dfc05c6a02bd46e8950673c19be2979b37d4123251f934
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qt-labs-settings_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 0461145fa49f118cccc705605f0fa9fa9c0198aac2c5aca4d1ff6fa7d65cb4d9
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qt-labs-sharedimage_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 5eaa7488f629848ced36587ce40503c024f29c25581f357b6a07386451d87739
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qt-labs-wavefrontmesh_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 0d36202c5921cb35cb61b42aa199c7463425b759c9874fe64e849239a6c7b79e
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-5compat/qml6-module-qt5compat-graphicaleffects_6.8.0-0deepin_sw64.deb
+    digest: e569fc124ae900492169ce9024b72970bc436eedbb24e4d1405d34d1c9e15904
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtcore_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: c4021232be63eb3159530f1717bc1b9f86430c680a29a4f6f5dab14035047472
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-multimedia/qml6-module-qtmultimedia_6.8.0-0deepin_sw64.deb
+    digest: 6c5c697bf2e6b84742fb1dd6cc550bc1bb9f472196a5435eb825260ebb9635fd
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtqml-models_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: e0e857f77bcef52e247cbbff8defba20975ce63d717ba451dbee1e810aea8c3c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtqml-workerscript_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 7804a27ff6127b045b4e2c48251359d3ed4e449fe5acda19eb6485202e961e81
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtqml-xmllistmodel_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 00572e57a8878451f374bc5df3e27781dbe7cc4679b7305e37e97790c1835961
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtqml_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 1ec6ba35607b70712840c1b15ca16287d0b6ee2d87088b60321196d095156850
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/d/dtkdeclarative/qml6-module-qtquick-controls2-styles-chameleon_6.7.44.1-1_sw64.deb
+    digest: 2793972adb9700991d52956adb37a64fc7d6887ce42b0ef5ac8bb9242a9e0d1b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick-controls_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: d512511982e852b79bb1573869ee877e0ca1b6e8a760186f43b60b2c7529784a
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick-dialogs_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 1cf1885426a36863f3fc0e0f703286f788df3cf0182efce507aedb3d015ebdd2
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick-effects_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 225135d4a9b30da5d23575b2d173c336d2773f7aa39098dcadfc048dc36afc55
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick-layouts_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 062120fa8e97888556d79db65a9e55e46e071d76f1353dabf9f06b4ca95f5fb7
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick-localstorage_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 573e18d1f41a3c678bb9e0a0c0bd281f99c3b35bcc3dd43cc97f195d38e36727
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick-nativestyle_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: e5e5bd5b219bbc0dc8a9465a540669e5a80e8920563a097911cdaec1edbef91c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick-particles_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: a549ab2d0d3b8b6bdc00828bc19047e2bbbe7ea6a107e112c207c4a84c95be12
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/qml6-module-qtquick-pdf_6.8.0-0deepin5_sw64.deb
+    digest: 813194aeb142b2bc05c8f1ac40140d065e2e1e3df2326f90fe97db0c57a7f398
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick-shapes_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 5a9e775bc58714363a5b357e85ded85491624759f77d93da325ee1abc39c87e2
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick-templates_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: ba7de94bc7fb84ec1d233e39456711542ecd848b6ff9d659c68ed36ca06e085a
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick-tooling_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 821b6ba9aa7a82266d2c1ab17414768961e09d552dee6b3c7cd8eae599d45d89
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick-window_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 0cb89747d29e06ad13695e346c7b9dd680eaac9676f2b1095d9293a772a0ba1f
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-multimedia/qml6-module-qtquick3d-spatialaudio_6.8.0-0deepin_sw64.deb
+    digest: 6d9cf0b693cda0acc33c70592dabb8d5b267db3bb144c88b19b2c65531865531
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qtquick_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: a69d892c4351570dd9f5d72b7dde21c566f9adc9fe6d1b84fd13aea7543b05cb
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qml6-module-qttest_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 24ebd6c15f6b00542ba93bdb4fa80379299747e8917def6c8c61321c2fe0a28b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-speech/qml6-module-qttexttospeech_6.8.0-0deepin_sw64.deb
+    digest: 3b906140df06d8d5c16f31820c16af77c4113dc10944cca099bab6b84bd15aef
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/qml6-module-qtwayland-client-texturesharing_6.8.0-0deepin10_sw64.deb
+    digest: 0f0c1c944991caa0c6f36e04bc10ed59ca4c3540acecd34ca5ac1f932823a164
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/qml6-module-qtwayland-compositor_6.8.0-0deepin10_sw64.deb
+    digest: 7e6c0d8a7254b9ee81d866ea84bcf32db156b5262eb597ed3310db7f516e0179
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webchannel/qml6-module-qtwebchannel_6.8.0-0deepin_sw64.deb
+    digest: 523b953fa4c5b15f598336806a15b897f1063595705270276d0af5e0e1ddfdbe
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/qml6-module-qtwebengine-controlsdelegates_6.8.0-0deepin5_sw64.deb
+    digest: c28bf1f06c3735012dbcde7bcb4672466fc5038533c0c1d0353c6eba4db45c18
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/qml6-module-qtwebengine_6.8.0-0deepin5_sw64.deb
+    digest: 106795c25900058c6bdc157275c66a3c9e23637ef25eaa7fa5080c1ccf3bc9d4
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qmlscene-qt6_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 935b70e6d711a6e59d565ca5a3f492f3ee9bac9501de21122df8f6af473dd35d
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-5compat/qt6-5compat-dev_6.8.0-0deepin_sw64.deb
+    digest: 76861082e597e100328d8d1f89d5f12971ff4501107dea17de36a64a9283fc65
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/qt6-base-dev-tools_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 2a1b0a900ac4e1b1597488d1e937f4dc31a68869888aca3fb1b5023634c8e572
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/qt6-base-dev_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 5e0871cc8e303afd6bf4268027c5320cf3f617ad67da4f633331a6e164522c86
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/qt6-base-private-dev_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 2c90ef265039e52455d141d74b05e9ed0c86244d26b89a05bbdb8a30b70a9460
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qt6-declarative-dev-tools_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 2a9c55e6384ca1b378ab7d5c4815f378fc11806bc5bec92fbe49cdd3d250c2ef
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qt6-declarative-dev_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 807b52cad27a203aa62a94557bff6d122f7ef3a0944538797d12794a3726d114
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qt6-declarative-private-dev_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: b95bca54e4d204b34a5a117b961fd5a0685af4b1399b0ab177149190c56df471
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/qt6-documentation-tools_6.8.0-0deepin3_sw64.deb
+    digest: 6ab661fbc84100c97125eb3745c4021ecc4ddab6298233ff9d2c1b33bc573c63
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/qt6-gtk-platformtheme_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: bb54a60c0564d33071239b677bb414917b131c603d8c34a2db17f8fc9b4e1a9b
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/qt6-image-formats-plugin-pdf_6.8.0-0deepin5_sw64.deb
+    digest: e666b51528874e25a5b4a04726ab76d899517095f2ef179cb8b476dad8f27f27
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-imageformats/qt6-image-formats-plugins_6.8.0-0deepin1_sw64.deb
+    digest: 2aac7bdd68adb3087d5dd5532edf7d9d6eed2c9853d8352d3bdff51019364ea5
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/qt6-l10n-tools_6.8.0-0deepin3_sw64.deb
+    digest: 454f316a59a3ab2be8c67077f04602650f2b3ee359013596ab08f752260b735a
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-multimedia/qt6-multimedia-dev_6.8.0-0deepin_sw64.deb
+    digest: 42cf324f64b1e8cc197b7ab9af21f33807b1056a365119c92be459e145b7af38
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/qt6-pdf-dev_6.8.0-0deepin5_sw64.deb
+    digest: 9e23063f43cca266e0723b669abe33d98e3efb663abef3efa8407799314bfdd3
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-positioning/qt6-positioning-dev_6.8.0-0deepin_sw64.deb
+    digest: 9f623be327e41fed8cd713be593eb7a29f5cb989e6680e42bf56146f9e6ef4af
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qt6-qmllint-plugins_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: ac76fe5b7e38d57b26d73e7f96913481b4d15cbd475d804cc30023894ff0bfb2
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-declarative/qt6-qmltooling-plugins_6.8.0+dfsg-0deepin12_sw64.deb
+    digest: 0a0f2cc6f3b402a0d5a585682fd25ac22cad9d0f81def63159c0edc429983198
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/qt6-qpa-plugins_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: b4b61fbb5de2a2dfa469d9bb2e74a6f8403dd6b1cceffa6c09e487fbe47ac106
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-speech/qt6-speech-dev_6.8.0-0deepin_sw64.deb
+    digest: d0d95e63389fb161520bf9b5336d92ef206306a7fd1f305605262d230d950efc
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-speech/qt6-speech-flite-plugin_6.8.0-0deepin_sw64.deb
+    digest: 5d74ccfef54486b0a03563d02eb35b360b0a2d5126f1bf4392ba070fd1b1d4f6
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-speech/qt6-speech-speechd-plugin_6.8.0-0deepin_sw64.deb
+    digest: eac71d8accecfd83683f2ca900091668e29bbe96b7cb53aa0cad3739eeecc114
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-svg/qt6-svg-dev_6.8.0-0deepin5_sw64.deb
+    digest: baa73d0de93ca23b8865a12e074e2998c462411fc1dea74d9afd59ca87e22cfb
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-svg/qt6-svg-private-dev_6.8.0-0deepin5_sw64.deb
+    digest: 63493e9b09446a187c5e3160391db37a04d3c4a7f199bf57890cda14b80b3b2c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/qt6-tools-dev-tools_6.8.0-0deepin3_sw64.deb
+    digest: cfc51f648ad9f65a5bf5c37f0e02cc179e265f9be0a79b2be20763f52f1a6d4f
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/qt6-tools-dev_6.8.0-0deepin3_sw64.deb
+    digest: 0ad66cc8a832dd13296b9b052a22bdef1686d55b39b06b3e941c08f9023706cb
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-tools/qt6-tools-private-dev_6.8.0-0deepin3_sw64.deb
+    digest: f75f189e9303e08fcea7ef252cb73f359b5024af7e8c9a5a12951e7512e1a7ee
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-translations/qt6-translations-l10n_6.8.0-0deepin2_all.deb
+    digest: dfc057c0b24337ba02216a90441b8ec4054bd9f281baa30342143ce5c39de25a
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/qt6-wayland-dev-tools_6.8.0-0deepin10_sw64.deb
+    digest: 3eb5e29b75bfaf9877a26af2741f287d989f01f029054f463e42426e5a2063ee
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/qt6-wayland-dev_6.8.0-0deepin10_sw64.deb
+    digest: 7620dcbb68e46681b0cb7c70da5cd499a203aa7353067c518b8302591f722eae
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/qt6-wayland-private-dev_6.8.0-0deepin10_sw64.deb
+    digest: feca887f3f8e76d035f88bfae49d1f19b6d61476f197db026e82807334984a3c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-wayland/qt6-wayland_6.8.0-0deepin10_sw64.deb
+    digest: 2b4bf675e53f1241ec0d7e46fd1cb183945b1fbb0e8b8545d2a8be82a9183e3a
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webchannel/qt6-webchannel-dev_6.8.0-0deepin_sw64.deb
+    digest: 580004a16b6dedde20f2fc8918710aff8a3c8d3636f26ea0bd715213107db490
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/qt6-webengine-dev-tools_6.8.0-0deepin5_sw64.deb
+    digest: aaac1bc98ab63b6b3dc21b18d6114ca92db2bda25917ba995caa79dc77a8521c
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/qt6-webengine-dev_6.8.0-0deepin5_sw64.deb
+    digest: 68d6bc41ab0ca6989fd56b3d9ddebb37d89d371d6be64066337cd9949b08a5c5
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-webengine/qt6-webengine-private-dev_6.8.0-0deepin5_sw64.deb
+    digest: ce80acb842ce4db9c8ab2e1f6153211dfef78b3c4b5e6814d207ac5a48fb3b9d
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/q/qt6-base/qt6-xdgdesktopportal-platformtheme_6.8.0+dfsg-0deepin24_sw64.deb
+    digest: 1faffd7b43d8528ef850d31d76e21281b4d5ceef0a8d38eb122953d71a8bdf9d
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/s/spdx-licenses/spdx-licenses_3.8+dfsg-3_all.deb
+    digest: 1e9241b2f5c2ad7113bae5dd66fea519cce6bee1ecfc214691f45d7227d24abd
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/uos-license-content/uos-license-content_2.0.7_sw64.deb
+    digest: 0374cd1f506212e4ce7ae2677c13e48ac59063910d22ef1d3da76d0647c95188
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/usrmerge/usrmerge_39+nmu2deepin1_all.deb
+    digest: def7f740c6520d8c1b210b6c71fc648b4106abc22c16830a2dff68aebf24a058
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/u/util-linux/uuid-dev_2.40.4-3deepin8_sw64.deb
+    digest: 9390d887724e185b48daa789ea133203bb1de114ba0cd7ac33ee09803c8b7239
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/x/xorgproto/x11proto-dev_2024.1-1_all.deb
+    digest: c461c410e347648b1b771b341946fa7ef0e98b0a148ceb74d7676647885c4fb5
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/x/xorg-sgml-doctools/xorg-sgml-doctools_1.11-1.1_all.deb
+    digest: 1f18ceb0dca2777bdd074b76a3499434d98b17f73523d01790bf609c3dbb458d
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/x/xtrans/xtrans-dev_1.4.0-1_all.deb
+    digest: 7565cca71c463f1c21cb12918e91a745e0c5ccdc29a86d9e7c1b9e30a718ae26
+  - kind: file
+    url: https://pools.uniontech.com/desktop-professional-V25/pool/main/z/zlib/zlib1g-dev_1.3.dfsg+really1.3.2-1deepin2_sw64.deb
+    digest: 9924f9428adc66ecc8bdedfb1342f04b8b519c10e6ae75fd80e61e9476f8dfbf
