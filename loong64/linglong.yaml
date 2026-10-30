@@ -13,7 +13,7 @@ build: |
   bash -e build.bash
 
 sources:
-  # linglong:gen_deb_source sources loong64 http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto stable main
+  # linglong:gen_deb_source sources loong64 https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto stable main
   # source package qt6-base
   # linglong:gen_deb_source install libqt6concurrent6
   # linglong:gen_deb_source install libqt6core6
@@ -201,911 +201,911 @@ sources:
   # source package uos-license-content
   # linglong:gen_deb_source install uos-license-content
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/assistant-qt6_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/assistant-qt6_6.8.0-0deepin3_loong64.deb
     digest: eb1f44a7f8d9c71c545fe6dbbf2b58675c2e5f18dfd14733941a2644b8908c37
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/b/binutils/binutils-loongarch64-linux-gnu_2.41-6deepin11_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/b/binutils/binutils-loongarch64-linux-gnu_2.41-6deepin11_loong64.deb
     digest: 35a35af6bf074079766e3210a42ca8fbb88e067fd8dcf48d55165e5ebad7b27c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dbus-broker/dbus-broker_29-3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dbus-broker/dbus-broker_29-3_loong64.deb
     digest: c32fa99bec894b1be78e1a8a8c5ac0206a3962b750aa9338387297e240b9db71
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt5integration/dde-qt6integration_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt5integration/dde-qt6integration_6.7.52-1_loong64.deb
     digest: 34f0ae4cb62176feb5b88d798c93d891a1c26ce4afa24e21e1d54f9d90fb030f
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dde-qt5platform-plugins/dde-qt6xcb-plugin_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dde-qt5platform-plugins/dde-qt6xcb-plugin_6.7.52-1_loong64.deb
     digest: 05c6aec78a78c2ee6251f8a249d347f506482f26fb2d7cef93f316d965fdcff7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/deepin-shortcut-viewer/deepin-shortcut-viewer_5.5.6_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/deepin-shortcut-viewer/deepin-shortcut-viewer_5.5.6_loong64.deb
     digest: 60d20d41533b1a178f135352f161a1195e8dc2e105a3c0a4bf063aee66054f6e
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/designer-qt6_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/designer-qt6_6.8.0-0deepin3_loong64.deb
     digest: 377acca7fcea64458b6d0ccbbdf8773e6a23d0219739747d6a2255c6fc43cfeb
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dpkg/dpkg-dev_1.22.6deepin10_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dpkg/dpkg-dev_1.22.6deepin10_all.deb
     digest: ad27e359a1fe3485255ce3c17eab99ae42ce1aa03acd67e45a2751710dc463c0
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkdeclarative/dtk6-exhibition_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkdeclarative/dtk6-exhibition_6.7.52-1_loong64.deb
     digest: 258829fe109a000be93e70a8cdd4216136eece19097bc96fe0cae9f3c42b5795
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/fcitx5-qt/fcitx5-frontend-qt6_5.1.9-1deepin2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/fcitx5-qt/fcitx5-frontend-qt6_5.1.9-1deepin2_loong64.deb
     digest: 75d8a82393a73bb7f3a9a63b3ab1dbadf46ab1898819dcb740068a08bbbbc738
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/firebird4.0/firebird4.0-common-doc_4.0.5.3140.ds6-17_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/firebird4.0/firebird4.0-common-doc_4.0.5.3140.ds6-17_all.deb
     digest: fafd08c872d1279aa0bde2e0bdf40a57721961934c0593352b6a2c551aa232a5
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/firebird4.0/firebird4.0-common_4.0.5.3140.ds6-17_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/firebird4.0/firebird4.0-common_4.0.5.3140.ds6-17_all.deb
     digest: ef932bad267f9d4d49c0c376ae1d0fc1a9b595054f8450d42b2a0d6621bc7084
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/fonts-noto/fonts-croscore_20201225-deepin_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/fonts-noto/fonts-croscore_20201225-deepin_all.deb
     digest: afbaf120869a08aa7dd14da9ad014de48a751aa4330534b531410bb86c411b55
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/fonts-freefont/fonts-freefont-otf_20120503-10_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/fonts-freefont/fonts-freefont-otf_20120503-10_all.deb
     digest: c66666da94b9a0477351ee9d6d7a247a0a3c842e428da770991b45f03be2ee72
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/fonts-freefont/fonts-freefont-ttf_20120503-10_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/fonts-freefont/fonts-freefont-ttf_20120503-10_all.deb
     digest: 79b23c3945d4628463672a804a0e81bc4c262ef87cb6316afb40167a50bc3145
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/fonts-liberation/fonts-liberation_2.1.5-3_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/fonts-liberation/fonts-liberation_2.1.5-3_all.deb
     digest: 9285213fd8d6515bc6c1be5b810bf39918a668a17024a9fd3541879ce7fb5344
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/t/tex-gyre/fonts-texgyre_20180621-3.1_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/t/tex-gyre/fonts-texgyre_20180621-3.1_all.deb
     digest: f66d6f798c4b99d8490558cc8209c069b0fe5577c11378c0e01f9e87ddf10824
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libg/libgudev/gir1.2-gudev-1.0_238-6_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libg/libgudev/gir1.2-gudev-1.0_238-6_loong64.deb
     digest: d9ff018530bb844cab04fbe9893d87fe41d919c09d82bce9886b8baa00fde8c7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/g/gcc-13/libatomic1_13.2.0-3deepin4_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/g/gcc-13/libatomic1_13.2.0-3deepin4_loong64.deb
     digest: 1ed85dc548b54f63267a5fb8c81b8d90638df81de8bcca7448e087f994b31bc5
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/ffmpeg/libavformat60_6.1.5-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/ffmpeg/libavformat60_6.1.5-0deepin3_loong64.deb
     digest: 28785a25651a998becf6c50380507d6782d9ef6ace4f799a97e06707ebad7aaa
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libb/libb2/libb2-1_0.98.1-1.1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libb/libb2/libb2-1_0.98.1-1.1_loong64.deb
     digest: 43c9bedf808d5c2b85351f73dab25e81c5674c499c293be875ac5250c4b8cca0
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/u/util-linux/libblkid-dev_2.40.4-3deepin9_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/u/util-linux/libblkid-dev_2.40.4-3deepin9_loong64.deb
     digest: 22511a7128c7958f774c9eaed060f2976f9a521ce4719217e74714d9c550823e
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libb/libbluray/libbluray2_1.3.4-1+rb2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libb/libbluray/libbluray2_1.3.4-1+rb2_loong64.deb
     digest: b28910a92aece870792abb3b969c20947e0a9dfeed0957b8207c49ef97766b8e
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/b/brotli/libbrotli-dev_1.1.0-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/b/brotli/libbrotli-dev_1.1.0-2_loong64.deb
     digest: c2388059363813c7ad5e42d91f514b1e93e3dd07432634eca0a6814e2d7edc10
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/b/bzip2/libbz2-dev_1.0.8-deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/b/bzip2/libbz2-dev_1.0.8-deepin1_loong64.deb
     digest: b073876e60d9f9ba41ff9f984d0895c37684272da7ea5389b2ceb85598e3154a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/c/capstone/libcapstone5_5.0.3-1deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/c/capstone/libcapstone5_5.0.3-1deepin1_loong64.deb
     digest: 45c7b82c996e051a0cfffb258efcd0924b112b416f536f85d7ceff290388f828
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/c/chromaprint/libchromaprint1_1.5.1-4deepin0_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/c/chromaprint/libchromaprint1_1.5.1-4deepin0_loong64.deb
     digest: 23c1612c4842c5ea3315b25e15d859301a5f925f439fc377b3b989d1473d142c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/c/cjson/libcjson1_1.7.18-3.1deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/c/cjson/libcjson1_1.7.18-3.1deepin1_loong64.deb
     digest: 970155ff2e9d993e4daf74f3c3d1189b5ba3115603bd3e458b80aee42255a9a9
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/l/llvm-toolchain-17/libclang-cpp17_17.0.6-5deepin7_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/l/llvm-toolchain-17/libclang-cpp17_17.0.6-5deepin7_loong64.deb
     digest: aa856e77c7da5ff138243d38928291ccd9b6fd041baed5e79c50673a8631389c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/l/llvm-toolchain-17/libclang1-17_17.0.6-5deepin7_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/l/llvm-toolchain-17/libclang1-17_17.0.6-5deepin7_loong64.deb
     digest: eb5d0443db82c2a855562de7ef2fe8131b8b26ecaf3d1e13eee0e8bf63610f50
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/c/cups/libcups2-dev_2.4.16-1deepin4_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/c/cups/libcups2-dev_2.4.16-1deepin4_loong64.deb
     digest: 27d287c3a96cc2b0455d48cc1a68ea4f25bb9767600f5121c3c5c877b2970d1b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/c/cups/libcupsimage2-dev_2.4.16-1deepin4_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/c/cups/libcupsimage2-dev_2.4.16-1deepin4_loong64.deb
     digest: 617ad9b75c6b39d49d8079abaa28dd7240c53e06070097032d55c41d8e60381b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libd/libdeflate/libdeflate-dev_1.23-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libd/libdeflate/libdeflate-dev_1.23-2_loong64.deb
     digest: 9ca0af4b398c531c686f9751478ce94d2f683850862adc4c9e5c0c1314d42e0e
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/double-conversion/libdouble-conversion3_3.3.0-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/double-conversion/libdouble-conversion3_3.3.0-1_loong64.deb
     digest: 1cb1deef108f4163f884f564e9fcfd429adc315e9509c30ff3bcf936824ac543
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dpkg/libdpkg-perl_1.22.6deepin10_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dpkg/libdpkg-perl_1.22.6deepin10_all.deb
     digest: 5ac1e65112a190dfca99abf002e3e3f0ee033919b7b65cef5e3637ff1821cc9b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkcore/libdtk6core-bin_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkcore/libdtk6core-bin_6.7.52-1_loong64.deb
     digest: 732aa2159378d24576edf02afa70ccb00673080d7fb0f07292fa9bc116178ebd
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkcore/libdtk6core-dev_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkcore/libdtk6core-dev_6.7.52-1_loong64.deb
     digest: 828391f3b3945a78f6cdbe09b6b87c328b6bf4798254fd29f9d0eab8a27a0919
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkcore/libdtk6core_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkcore/libdtk6core_6.7.52-1_loong64.deb
     digest: a5d3e844f3a942c3942048754ee2520389a0c16e1a9dba932d111c4d5ed0797c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkdeclarative/libdtk6declarative-dev_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkdeclarative/libdtk6declarative-dev_6.7.52-1_loong64.deb
     digest: 74c573313b28ed0d4c271d216b0c0fa0612a6d900ac12c17ded740d0efe7e766
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkdeclarative/libdtk6declarative_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkdeclarative/libdtk6declarative_6.7.52-1_loong64.deb
     digest: 5a36509dc699f52a6a18dc0d23ab9b1fd27f439f6487b84cbcf71a845e60ed62
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkgui/libdtk6gui-bin_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkgui/libdtk6gui-bin_6.7.52-1_loong64.deb
     digest: a8891d22802eedfe2c9b4c408e9bb24633b4d9a1406cca4af902e74f5bad9bc2
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkgui/libdtk6gui-dev_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkgui/libdtk6gui-dev_6.7.52-1_loong64.deb
     digest: a7614fd0ddc0f1b4293d390106b0b14edb4a46b422dc0fe2be92a27981275830
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkgui/libdtk6gui_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkgui/libdtk6gui_6.7.52-1_loong64.deb
     digest: 191a13d256dd92df48c8c739a1096cb6aee8691a12f06085c24ebeeb03d8951c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtklog/libdtk6log-dev_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtklog/libdtk6log-dev_6.7.52-1_loong64.deb
     digest: 5b4079e555ee07478f1f41539ec34f46c9a98602fba42506eab4bba514e84130
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtklog/libdtk6log_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtklog/libdtk6log_6.7.52-1_loong64.deb
     digest: f1120aa44f339bd347581723f4bfa77b5b72690b8e91291964c613933fa9e20a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkwidget/libdtk6widget-bin_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkwidget/libdtk6widget-bin_6.7.52-1_loong64.deb
     digest: 3973de57604ff2914fc096c897056c32350d37ef3b2c8bfff19b21fe0c7080ad
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkwidget/libdtk6widget-dev_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkwidget/libdtk6widget-dev_6.7.52-1_loong64.deb
     digest: 1a74e52e5afea7142e4fbe3d9aaa3d97fa256c9b7eca72690ac08f2283936845
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkwidget/libdtk6widget_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkwidget/libdtk6widget_6.7.52-1_loong64.deb
     digest: 79217759a526793022032b8e675ff7d352adf7ce6cc50f923e47747529fa2e9b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkcommon/libdtkcommon-dev_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkcommon/libdtkcommon-dev_6.7.52-1_loong64.deb
     digest: 90fdb2cc91c2359a8345e5d6422fad0cb93f1d6d2a2478a4933b6f24b5c5cd0d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkcommon/libdtkdata_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkcommon/libdtkdata_6.7.52-1_loong64.deb
     digest: 996f159f3cb77bf55bc6fd4267d02335cef20bf9a904b8bb2d2d50a695f53343
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libe/libevdev/libevdev-dev_1.13.4+dfsg-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libe/libevdev/libevdev-dev_1.13.4+dfsg-1_loong64.deb
     digest: 43ea506dbb0c9b69bcb06c4cb8e40151bf81952367c5355f830f87288c3fe462
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libe/libevdev/libevdev2_1.13.4+dfsg-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libe/libevdev/libevdev2_1.13.4+dfsg-1_loong64.deb
     digest: d076ff9e61c87ebbf1a4d592eff79d32d6358fa8cd1121a30baf7ef92b764a0b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/e/expat/libexpat1-dev_2.8.0-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/e/expat/libexpat1-dev_2.8.0-2_loong64.deb
     digest: 78a7c1de139f4725d7083fb85b0671553368dcc3e4551a6987b81f8540420d1b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/firebird4.0/libfbclient2_4.0.5.3140.ds6-17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/firebird4.0/libfbclient2_4.0.5.3140.ds6-17_loong64.deb
     digest: 1247f90fa5006593b184ecd8ab58a9f3f1d9d9a38c97b67fefeb2ba0122e43f9
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/fcitx5-qt/libfcitx5-qt-data_5.1.9-1deepin2_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/fcitx5-qt/libfcitx5-qt-data_5.1.9-1deepin2_all.deb
     digest: 83423aa61a041c479b58a7cf643ecf0956d28c16905e63a735b5d201894269db
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/fcitx5-qt/libfcitx5-qt6-1_5.1.9-1deepin2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/fcitx5-qt/libfcitx5-qt6-1_5.1.9-1deepin2_loong64.deb
     digest: 21d77a49eb2799fc385e8fbfdd8501369167c13b555e54de88db5f7f5541dba8
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/fcitx5-qt/libfcitx5-qt6-dev_5.1.9-1deepin2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/fcitx5-qt/libfcitx5-qt6-dev_5.1.9-1deepin2_loong64.deb
     digest: 330dd07a0db06659cfc2caaa9fbf96ea6c99bdfa9f3de1eee3eefc0a1c13990b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/fcitx5/libfcitx5utils2_5.1.12-2deepin6_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/fcitx5/libfcitx5utils2_5.1.12-2deepin6_loong64.deb
     digest: e38e3398334b2d6686f3321a5c695db52a12632043e681c8f91a1466ab704f61
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libf/libffi/libffi-dev_3.4.6-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libf/libffi/libffi-dev_3.4.6-1_loong64.deb
     digest: 864ef36cd80bc0a9fadbdafca5a5ef05ff92458f945bc1c20753d7635d8f17b7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libf/libfile-find-rule-perl/libfile-find-rule-perl_0.34-1_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libf/libfile-find-rule-perl/libfile-find-rule-perl_0.34-1_all.deb
     digest: 8ebc94473bf3381e34408415da523e390c2fb3be418f3c298deb6bc82373ded5
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/flite/libflite1_2.2-6_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/flite/libflite1_2.2-6_loong64.deb
     digest: 89927d11c271631ca816010e3825c066645c90621bc386f4dea59fbcc10fa51f
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/fmtlib/libfmt10_10.1.1+ds1-4deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/fmtlib/libfmt10_10.1.1+ds1-4deepin1_loong64.deb
     digest: 58d05c9c6162bddfa086ae65bb7f937b94ca237eac4819cc4c614e67516fac1e
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/fontconfig/libfontconfig-dev_2.17.1-5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/fontconfig/libfontconfig-dev_2.17.1-5_loong64.deb
     digest: b62b02488a20b998918cc11257b322dd2d2d55060b218c23e9e4771f812ad650
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/freetype/libfreetype-dev_2.13.2+dfsg-1deepin2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/freetype/libfreetype-dev_2.13.2+dfsg-1deepin2_loong64.deb
     digest: 0ca5d52aeb656859340e21163000e4533fad0073b5ed6b2de5f1cbc3a254b76f
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/g/glib2.0/libgirepository-2.0-0_2.80.1-1deepin4_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/g/glib2.0/libgirepository-2.0-0_2.80.1-1deepin4_loong64.deb
     digest: 38184fc8103e1312c59a9c5cbc22439c444433f96ed7b2484bf96b42aaad0f49
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libg/libglvnd/libgl-dev_1.7.0-1deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libg/libglvnd/libgl-dev_1.7.0-1deepin1_loong64.deb
     digest: 37a693f96d02d97be01c45d972836cbaaac0b9a5043174a04b2e2eeff251b30d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/g/glib2.0/libglib2.0-dev-bin_2.80.1-1deepin4_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/g/glib2.0/libglib2.0-dev-bin_2.80.1-1deepin4_loong64.deb
     digest: 224418db0f3e9cca518d2209f1b948a4a933c44e98e0e27986d70f0cb463762b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/g/glib2.0/libglib2.0-dev_2.80.1-1deepin4_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/g/glib2.0/libglib2.0-dev_2.80.1-1deepin4_loong64.deb
     digest: 4fcb65ca8a64a9917615989f155b1bfd4741a3127f1958787d8ad27b9ef8d548
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libg/libglvnd/libglx-dev_1.7.0-1deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libg/libglvnd/libglx-dev_1.7.0-1deepin1_loong64.deb
     digest: 260b85824035f054f7e25e2b142ee5397c28953f77f463276203b0e5ed8d9bde
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/g/game-music-emu/libgme0_0.6.3.2-7deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/g/game-music-emu/libgme0_0.6.3.2-7deepin_loong64.deb
     digest: 03512d70fb50bc97266e9f14dd56fc5577d455aed40072f0f2794056bdd6ac28
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/g/gst-plugins-base1.0/libgstreamer-gl1.0-0_1.24.13-0deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/g/gst-plugins-base1.0/libgstreamer-gl1.0-0_1.24.13-0deepin1_loong64.deb
     digest: 0dd514b4720617d406df515fc6a95be7e19a223e3f1c40da22128b46facf7989
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libg/libgudev/libgudev-1.0-0_238-6_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libg/libgudev/libgudev-1.0-0_238-6_loong64.deb
     digest: 743a0e5aed46c4ed65bbb4a7dcc8d1671399c972a2139296b7eff8a529da1510
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libg/libgudev/libgudev-1.0-dev_238-6_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libg/libgudev/libgudev-1.0-dev_238-6_loong64.deb
     digest: e064f26b79aca0044bf1ebd77ac29d0e9470aef6f8d97cd90284389b8336fbee
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/g/gumbo-parser/libgumbo2_0.12.0+dfsg-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/g/gumbo-parser/libgumbo2_0.12.0+dfsg-2_loong64.deb
     digest: eb28d4bec657f7273f965bde361caca747436978ff2b8dfda5bb4ce292c8868c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libi/libinput/libinput-bin_1.26.0-1deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libi/libinput/libinput-bin_1.26.0-1deepin5_loong64.deb
     digest: f032e10ca2f485b3db38778d9a01d22dbd92d0aaab17f7b543d29aa4651b55dd
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libi/libinput/libinput-dev_1.26.0-1deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libi/libinput/libinput-dev_1.26.0-1deepin5_loong64.deb
     digest: c675f26dc073cd01c6098484e841faefea0de2e1606eaf2de5980942a90fd487
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libi/libinput/libinput10_1.26.0-1deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libi/libinput/libinput10_1.26.0-1deepin5_loong64.deb
     digest: 1cc8375ccbdfff3024272e03d8da0106288dee124510fb696ab213b02fd391f5
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/j/jbigkit/libjbig-dev_2.1-3.1-deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/j/jbigkit/libjbig-dev_2.1-3.1-deepin1_loong64.deb
     digest: 0c3b4ccc6927abdfddb2d909ca139fbbf1c5e81ccfdba90c1ffcce9f460d4cb7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libj/libjpeg-turbo/libjpeg-dev_2.1.5-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libj/libjpeg-turbo/libjpeg-dev_2.1.5-2_loong64.deb
     digest: 152658aba54e2f163ba19c0fe53aa7666e1c6907eda79433f1ec38240a9670b7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libj/libjpeg-turbo/libjpeg62-turbo-dev_2.1.5-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libj/libjpeg-turbo/libjpeg62-turbo-dev_2.1.5-2_loong64.deb
     digest: 342808c163f19bfdfdb7f36cf51acce6401aa2c0df6fd5695d0b3a9f2731bd9b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/l/lerc/liblerc-dev_4.0.0+ds-3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/l/lerc/liblerc-dev_4.0.0+ds-3_loong64.deb
     digest: c0a9c5a24ac81fd6e5641d36d47600df17b732fe3a5c024753da8e32679a1447
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/l/litehtml/liblitehtml0_0.9-0deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/l/litehtml/liblitehtml0_0.9-0deepin1_loong64.deb
     digest: 6b486a85ac27b4001d13fb43838047f46ea84c3b97baa48d0ede572ccd47817f
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/x/xz-utils/liblzma-dev_5.4.5-0.3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/x/xz-utils/liblzma-dev_5.4.5-0.3_loong64.deb
     digest: 3ae2965f4f532a1dfc813c0d9ba0461219093f4f0ab50c9f3ca77ba99d71cf34
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/m/mariadb/libmariadb3_11.8.1-4deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/m/mariadb/libmariadb3_11.8.1-4deepin1_loong64.deb
     digest: 53c2272267e61ea69f67973a7a43374ac2ae02be3adaf20f6231b7cf274a766a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/m/mbedtls/libmbedcrypto7_2.28.8-1deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/m/mbedtls/libmbedcrypto7_2.28.8-1deepin1_loong64.deb
     digest: ffdfa4f9a32fc2be622d68b3118ab848e7e01bc063c189ec5e5f23fa0f686a36
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/m/md4c/libmd4c0_0.4.8-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/m/md4c/libmd4c0_0.4.8-1_loong64.deb
     digest: 38b04a9c6431d337342ef954a98ddc75b6ea0da7b17d321cf5f4ba17e73d9dea
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libm/libmng/libmng1_1.0.10+dfsg-3.1-deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libm/libmng/libmng1_1.0.10+dfsg-3.1-deepin1_loong64.deb
     digest: 501c91fa0ba7cc9f6bceff658ffdba2323039a590719a2030f2dd37266d296aa
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/u/util-linux/libmount-dev_2.40.4-3deepin9_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/u/util-linux/libmount-dev_2.40.4-3deepin9_loong64.deb
     digest: f3e26945d53b26d1787b23cdbddb89afec7494f2192ffbb81d75e4ce7883aa23
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/m/mtdev/libmtdev-dev_1.1.6-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/m/mtdev/libmtdev-dev_1.1.6-1_loong64.deb
     digest: 9b74501e7c7e6f5d5708bfb897a6710f2144da4806717be60cadb34d2e180353
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/m/mtdev/libmtdev1_1.1.6-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/m/mtdev/libmtdev1_1.1.6-1_loong64.deb
     digest: 4a5019080a0454a1380d3353dbc52b5bfebd3ad8f4c210425beeef8b6e5113e8
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/n/norm/libnorm1_1.5.9+dfsg-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/n/norm/libnorm1_1.5.9+dfsg-2_loong64.deb
     digest: b8ccd5bf943ded55cccdc92d59c8abb35a1fb65fc3425ebe35670d37b7bdad6f
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libn/libnumber-compare-perl/libnumber-compare-perl_0.03-2_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libn/libnumber-compare-perl/libnumber-compare-perl_0.03-2_all.deb
     digest: c37a63d53d982b9596a8e498e9ef95cf07cc245eaa2a8df8fc8546e82511fa7c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/u/unixodbc/libodbc1_2.3.6-0.1-deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/u/unixodbc/libodbc1_2.3.6-0.1-deepin1_loong64.deb
     digest: 2edcd978231e1d513566ace5c07cc11449586130e0e9b8d5bc126d8a56f8e93f
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libg/libglvnd/libopengl-dev_1.7.0-1deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libg/libglvnd/libopengl-dev_1.7.0-1deepin1_loong64.deb
     digest: cd4ffaeb85402fdee4cd618e5d95b20857b2eb83f25d6109f8026b714b4af470
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libo/libopenmpt/libopenmpt0_0.5.13-1deepin0_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libo/libopenmpt/libopenmpt0_0.5.13-1deepin0_loong64.deb
     digest: d5f7b919880e85ef999377610d15bc712151a6ae5b5aaf9752cc59d21923992f
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/p/pciutils/libpci3_3.13.0-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/p/pciutils/libpci3_3.13.0-2_loong64.deb
     digest: 4665f42c84e127912b56c3e5025085a6cfdae9bcdad17c802abaec73540db64f
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/p/pcre2/libpcre2-32-0_10.46-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/p/pcre2/libpcre2-32-0_10.46-1_loong64.deb
     digest: 2db80a8bfa1f9619374622e0e01a9ea79ba3d2e886b0347a078889c73f969b38
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/p/pcre2/libpcre2-dev_10.46-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/p/pcre2/libpcre2-dev_10.46-1_loong64.deb
     digest: 6ea6b84b6b95885e921a2eb737bc9482caccfdcc42c9af8661f2de7e06c3f4ae
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/p/pcre2/libpcre2-posix3_10.46-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/p/pcre2/libpcre2-posix3_10.46-1_loong64.deb
     digest: 58accb378abd0821d37bed2a8185059f72a05e1174c84ec5424ce3f4118188fd
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libp/libpgm/libpgm-5.3-0_5.3.128~dfsg-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libp/libpgm/libpgm-5.3-0_5.3.128~dfsg-2_loong64.deb
     digest: 9b68dc19b458a678ae21f5eec1f27f011f0c8da502cf3cf234b5cf4f8e2b093d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/p/pkgconf/libpkgconf7_2.5.1-4_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/p/pkgconf/libpkgconf7_2.5.1-4_loong64.deb
     digest: e91b4866403e8d84c86e77498102e47cb3726474149cf5adc51e59cafff8d5cd
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libp/libpng1.6/libpng-dev_1.6.53-1deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libp/libpng1.6/libpng-dev_1.6.53-1deepin5_loong64.deb
     digest: 64e6558bc63ff72790f04695835cb1d713a4a259c211a63f536bb2c8da23cf53
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/p/postgresql-16/libpq5_16.4-3deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/p/postgresql-16/libpq5_16.4-3deepin1_loong64.deb
     digest: c82d753dc55aafdd5060f98fec41d782a644ee036add9ef1455530bc32cca87a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libp/libpthread-stubs/libpthread-stubs0-dev_0.4-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libp/libpthread-stubs/libpthread-stubs0-dev_0.4-1_loong64.deb
     digest: 9d68b88d2e9de4c313b75ec6ebd8df51105856bf8998470dc7faf770308ddc40
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6concurrent6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6concurrent6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: e68f6b165995819a70944bb09fb63201529a0ddbb6ac332aeefa730326c14e46
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-5compat/libqt6core5compat6_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-5compat/libqt6core5compat6_6.8.0-0deepin3_loong64.deb
     digest: fa8783bb9bbd46418af1ce3578594862ff774daaf1a8bfc646857027eb7af9a6
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6core6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6core6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 6a8ab6d93d1dae3c8a5a3e25c356c611bc6095efbc84f50a6f249e0b6b276fd1
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6dbus6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6dbus6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 7685d5ec2809e28bfa1d5585411709271425f6d0a236bac9e45ae55328908ec7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/libqt6designer6_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/libqt6designer6_6.8.0-0deepin3_loong64.deb
     digest: eb6a664507e891d69db263120e88b82bab4cfa104a39a28fe772d8beeeac21fa
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/libqt6designercomponents6_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/libqt6designercomponents6_6.8.0-0deepin3_loong64.deb
     digest: 82be98a5406a45ff7c0f16ba2015be9bbf3a269599233ac7fb25f28407b8ac07
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6gui6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6gui6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 30ffa1bfdb81082b0abd1619a97844918e13e0c04958e6cee882dd0aeba0d2e3
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/libqt6help6_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/libqt6help6_6.8.0-0deepin3_loong64.deb
     digest: 0c68f46baa7a14cf0ff955d04931ae6db3a6a991e4efa546eac8b0af5000e3d0
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/libqt6multimedia6_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/libqt6multimedia6_6.8.0-0deepin_loong64.deb
     digest: 50cfc130b9f7bbc24dc0eee4ad75bd15dff40b9f126942ec1010f6e85955e112
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/libqt6multimediawidgets6_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/libqt6multimediawidgets6_6.8.0-0deepin_loong64.deb
     digest: 84bb00e7144d357bb9f52720eba503deadc3939f34cd4f1431d8abc6c9181194
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6network6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6network6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 99623fc9d20533ec37c5e1fd553810a0f281311b0532933c5bab3964ef919756
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6opengl6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6opengl6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 570ab9a783969a2b44db3066311ab3a0d7026b4e97382466fda4834465257dbb
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6openglwidgets6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6openglwidgets6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 6c28811c761b8f53fb97c005e4c4ede5704fa0c58add03e67aed8bc3902a75bd
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6pdf6_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6pdf6_6.8.0-0deepin5_loong64.deb
     digest: 71b2c6a7a50b2399dbb766eefa3c8b11977d0675349a62f3efdd1a122e472801
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6pdfquick6_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6pdfquick6_6.8.0-0deepin5_loong64.deb
     digest: fc1d18f171cf650e809452156ce2b5213a99243d47b1987dc5536f2e17691bf9
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6pdfwidgets6_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6pdfwidgets6_6.8.0-0deepin5_loong64.deb
     digest: fc104248bf12e0d1dfeb0b110724435c74afcff8772a90e04f97ef2206e9845d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-positioning/libqt6positioning6-plugins_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-positioning/libqt6positioning6-plugins_6.8.0-0deepin_loong64.deb
     digest: e71532556df01fe05dd90a84f808fc00757af63057e4c03daf6f90e34356e8cc
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-positioning/libqt6positioning6_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-positioning/libqt6positioning6_6.8.0-0deepin_loong64.deb
     digest: 687a391b5b8122af81d2693e223ab1bae2046168abcb48a634110a6f6ca8b477
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-positioning/libqt6positioningquick6_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-positioning/libqt6positioningquick6_6.8.0-0deepin_loong64.deb
     digest: e743f236e0ed9f97d650bc9a8681550b14accdbaa522152afa3760e19ff82013
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6printsupport6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6printsupport6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 583672fd00807879f1431f54316120fc56d5ccd5b82aadc1b4a71af97e376ba8
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6qml6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6qml6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: d84751bd2ed636b2c562ed4d609ef534ecee594906a9109a51ff7de6d8ca9bb8
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6qmlcompiler6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6qmlcompiler6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: b2b79bff78fb4e1a4cd2e4cbdf74cb3d1d3444533ab4ab572fd8a3ac823c6140
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6qmlmodels6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6qmlmodels6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 704918fbe988b056d6e8af9122aad9dd36c40ca5bbe2d7a394bd1c3258c432b1
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-quick3d/libqt6quick3d6_6.8.0-0deepin2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-quick3d/libqt6quick3d6_6.8.0-0deepin2_loong64.deb
     digest: 9775d45a33e9a2b23cafebe7975e731d477020d65cd5044c722b6918c271abd5
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-quick3d/libqt6quick3druntimerender6_6.8.0-0deepin2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-quick3d/libqt6quick3druntimerender6_6.8.0-0deepin2_loong64.deb
     digest: c2582a775b4bcef766cb710c214e928d3acdb33584129447ddf2200956fd1325
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-quick3d/libqt6quick3dutils6_6.8.0-0deepin2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-quick3d/libqt6quick3dutils6_6.8.0-0deepin2_loong64.deb
     digest: 990ac1a932968384f8f0bbfca0fbb20e11ad7dee53a29a5e425beb8c83cbdb7e
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quick6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quick6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: f92d81b7b4c9b3f31413b059bfa9a4f9fae1eadf797e3c84ce433290d7a298ba
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quickcontrols2-6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quickcontrols2-6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: b0b15cdae4444842ec34d75bf46718337d1d093287fde31b723307cf88d141db
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quicktemplates2-6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quicktemplates2-6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: d073aed0c4f834ef42e720a6b7bbebd37173b3837e9377ab090b47772c8b00e2
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quicktest6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quicktest6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 66117a0e490dc33adab78e84604e5a1a01943e2b36e9dea5c1dc55299b339b9d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quickvectorimage6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quickvectorimage6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 5ef72d20254010d9ff9b5c20015e98f7ecd6d650172f491260f8cdf62fef9e35
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quickvectorimagegenerator6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quickvectorimagegenerator6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 00caf79703d125684c42cf22cda5f67629fe5630aaa0c31ff911aa461b5bb86a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quickwidgets6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/libqt6quickwidgets6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: d7c3c358ef2246d503c9988caefc905502c49b8dc56d076e51bb28c992545c59
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-serialport/libqt6serialport6_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-serialport/libqt6serialport6_6.8.0-0deepin_loong64.deb
     digest: 8277cb3eedc7e6771085aff43edd7195b2a58c493d9c5932036c35d2d0f5dea1
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-shadertools/libqt6shadertools6_6.8.0-0deepin2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-shadertools/libqt6shadertools6_6.8.0-0deepin2_loong64.deb
     digest: 03818987d96fd9a0d8ed2c4394bd79d3de3b929bfdc30e0732ae57a3a984afb6
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/libqt6spatialaudio6_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/libqt6spatialaudio6_6.8.0-0deepin_loong64.deb
     digest: 071bc2779dd4d67d41c836c3df87c7cf10e50ad7fa5aa8600422eeb345b85607
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6-ibase_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6-ibase_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 93263737848a3b4f03f7dc5b3a4f7e776d9dbf128d2e6969a055e07388aae3b3
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6-mysql_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6-mysql_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 354c1def3647ab686ed0a977e6138da46f3ad38f7946aee4195bae148e53c684
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6-odbc_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6-odbc_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 27bc0e27949bf1170b94913a73d48ae325adc8669d402149a891378e83b50e90
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6-psql_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6-psql_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 8ed26b7050781584f59ad3a2fb06184b781213bec44e7e22e6b2e815d919b100
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6-sqlite_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6-sqlite_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 33a3750db3f5980595687f8b974e9bd8181ca49205b8b9ee55600a9594d45995
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6sql6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: ebc391d9004ecc89c7f4ed8bedcafd4039b194138cb25bfe2b085bb5ecdfa6fe
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-svg/libqt6svg6_6.8.0-0deepin7_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-svg/libqt6svg6_6.8.0-0deepin7_loong64.deb
     digest: 983f2faa8e0aa3ab19311fe12c94648bf882f3ee96c60ce3930acc636c31ceff
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-svg/libqt6svgwidgets6_6.8.0-0deepin7_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-svg/libqt6svgwidgets6_6.8.0-0deepin7_loong64.deb
     digest: 7b6143cf59c91c0a46e44aa024ce5f090b134514b92ecec64414ba19e0e9e57b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6test6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6test6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 82ee4387a7c74cfe73b9e8be6681d2ee5263778aaf8d30b4a3ec345f5e81ab13
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-speech/libqt6texttospeech6_6.8.0-0deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-speech/libqt6texttospeech6_6.8.0-0deepin1_loong64.deb
     digest: a792f970a150d5fd7b60c3e265f8117600556b81eaa4a8834a1f65163a659e5d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/libqt6uitools6_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/libqt6uitools6_6.8.0-0deepin3_loong64.deb
     digest: bcc5d3441b82068d621fe024b751eb6642182b5f86dc7b57de237edadf190818
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/libqt6waylandclient6_6.8.0-0deepin16_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/libqt6waylandclient6_6.8.0-0deepin16_loong64.deb
     digest: 74d80283ade913053d1bad5ff554c21de497c917a4a7f35b33a429897ebe2f18
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/libqt6waylandcompositor6_6.8.0-0deepin16_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/libqt6waylandcompositor6_6.8.0-0deepin16_loong64.deb
     digest: a5379da26fd7bc4773f62cd2f7fdd3daa22c177a019ef9583e15441c9c3770bc
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webchannel/libqt6webchannel6_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webchannel/libqt6webchannel6_6.8.0-0deepin_loong64.deb
     digest: 1a79cfd87b1950b05aff495d7e98a6869084daf27eb72d53ab6f6b6aa8987d9c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webchannel/libqt6webchannelquick6_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webchannel/libqt6webchannelquick6_6.8.0-0deepin_loong64.deb
     digest: 6fec6de7d95d4d98a68357df36087a450ede88c7f90f0c382e63956e350b5000
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6webengine6-data_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6webengine6-data_6.8.0-0deepin5_loong64.deb
     digest: 21798b4262483385a0463738194c3a314298ffa9675a304fb09031c23c1f99fe
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6webenginecore6-bin_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6webenginecore6-bin_6.8.0-0deepin5_loong64.deb
     digest: e55851a4ea7b189cfc088265508bbe9fb33b671aa6c467fed53c8df8de8b25c1
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6webenginecore6_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6webenginecore6_6.8.0-0deepin5_loong64.deb
     digest: c08344e16ef257f34887ee9a44481781abb35a2f31957c18e2d30efeab2c88e8
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6webenginequick6_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6webenginequick6_6.8.0-0deepin5_loong64.deb
     digest: 9f36f2f0e8d626d657381cfb41cafc8d8c113b783d25e46f1be47c48b9f3befa
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6webenginewidgets6_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/libqt6webenginewidgets6_6.8.0-0deepin5_loong64.deb
     digest: 36faebac18b5b6079828cb205fa467d420bdeae5066da513ebc5710a5c89a997
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6widgets6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6widgets6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 6d288a3d8a52019d84d423bd6780ee87cdb7572fe3c89639353216ffd824fd25
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/libqt6wlshellintegration6_6.8.0-0deepin16_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/libqt6wlshellintegration6_6.8.0-0deepin16_loong64.deb
     digest: 9fd45a7cbcf99100288c2c04cfee5d249ec03a0bf6e29c630b55ed9862cfbceb
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6xml6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/libqt6xml6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 581edac85986890ddaa3d496bd387cbfbb7505c70c87c2c477d0a25a614e555f
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libr/librabbitmq/librabbitmq4_0.11.0-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libr/librabbitmq/librabbitmq4_0.11.0-1_loong64.deb
     digest: bfc60cbd6ee84fd4a6ee2d1002c27389d58dd451f8ec8bfde0e74fc8dbcfbbf4
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libr/librist/librist4_0.2.11+dfsg-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libr/librist/librist4_0.2.11+dfsg-1_loong64.deb
     digest: 2611a022edf6296d51869158a331d6af6470739d4ad74677f2fad25350d1840c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libs/libselinux/libselinux1-dev_3.5-1deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libs/libselinux/libselinux1-dev_3.5-1deepin5_loong64.deb
     digest: 3560dfdbcf90fef6f1fe16715e1bc7543a4e84b8759c58f71db0d93054bb7d49
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libs/libsepol/libsepol-dev_3.5-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libs/libsepol/libsepol-dev_3.5-2_loong64.deb
     digest: cd6de58ec8972c1be0f4028a31b7b94d8079bd1c0bb6af78c21ab1c1a0b245a2
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libw/libwebp/libsharpyuv-dev_1.3.2-0.2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libw/libwebp/libsharpyuv-dev_1.3.2-0.2_loong64.deb
     digest: 9667bac75f00cdf47520a2ec5d444bcafb4c8eb3e13efdf86218f5c69d68652b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libs/libsodium/libsodium23_1.0.18-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libs/libsodium/libsodium23_1.0.18-1_loong64.deb
     digest: 967fe90420e1c2608209f23f3a959adc2a3395203139559ef52a957bde15123a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/s/spdlog/libspdlog1.12_1.12.0+ds-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/s/spdlog/libspdlog1.12_1.12.0+ds-2_loong64.deb
     digest: 760ec85164e31b757b0e46274b5a1eafe5a6ce53ccd0e1c4c1d7e5338e93c31e
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/s/speech-dispatcher/libspeechd2_0.11.5-5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/s/speech-dispatcher/libspeechd2_0.11.5-5_loong64.deb
     digest: e8619448ff773a2ab7ad66dfb6b345f899c47601e40b3982bd5b97dc701de1c0
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/s/srt/libsrt1.4-gnutls_1.4.4-4deepin0_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/s/srt/libsrt1.4-gnutls_1.4.4-4deepin0_loong64.deb
     digest: dea4a89cee5d7d70b6143ef55501595bfa963aee8777e0f1b10f46a78dc9e578
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libs/libssh/libssh-4_0.11.3-1deepin2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libs/libssh/libssh-4_0.11.3-1deepin2_loong64.deb
     digest: 79f234dd97b93677fa5bc853f7e8a9e01c1768be60814f1aafb365768472597a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/s/startup-notification/libstartup-notification0_0.12-deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/s/startup-notification/libstartup-notification0_0.12-deepin1_loong64.deb
     digest: d5528cf8ef1dcf19b1b3245d894851bbddc35132ef3fd22e8c399fd5af91a514
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/f/ffmpeg/libswscale7_6.1.5-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/f/ffmpeg/libswscale7_6.1.5-0deepin3_loong64.deb
     digest: 11a66f68b38d3643c438c1c1bb9b422169c4b97a9cbb513b31152779c65d7f28
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libt/libtext-glob-perl/libtext-glob-perl_0.11-2_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libt/libtext-glob-perl/libtext-glob-perl_0.11-2_all.deb
     digest: 2e8cf563b486b56b4c875db16a37e5e24168085510b8bfd167efc8367cdcad1f
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/t/tiff/libtiff-dev_4.7.1-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/t/tiff/libtiff-dev_4.7.1-2_loong64.deb
     digest: 6efd6595c3f17e5cae50a54430bf0d23b01855de0cdbe014c7010471dcd759f0
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/t/tiff/libtiffxx6_4.7.1-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/t/tiff/libtiffxx6_4.7.1-2_loong64.deb
     digest: 8d8f2f8c981dd1d04c6ed9ffda9a6fa75d564adcfb26fff969959b295720039e
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libt/libtomcrypt/libtomcrypt1_1.18.2-5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libt/libtomcrypt/libtomcrypt1_1.18.2-5_loong64.deb
     digest: 85e1e7482f2e1c928984391c424de9d81262ef9ad9535a1a5675eceb4dbe1830
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libt/libtommath/libtommath1_1.2.0-6+deb12u1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libt/libtommath/libtommath1_1.2.0-6+deb12u1_loong64.deb
     digest: db75255d3c07f0d76e854af80a1a6090e023a5bba421ba75781bb669cf85a3ac
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/t/tslib/libts0_1.22-1+rb3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/t/tslib/libts0_1.22-1+rb3_loong64.deb
     digest: b2217959e0d34e5ce86a75b82acb235e1b887696044937815544c576c7abc9a7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/s/systemd/libudev-dev_255.2-4deepin31_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/s/systemd/libudev-dev_255.2-4deepin31_loong64.deb
     digest: b3b26ee63e2afcd84db01eea4e3b08dee0dc085b2a23fd4fda83d96f29cdf3dd
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libu/libudfread/libudfread0_1.1.2-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libu/libudfread/libudfread0_1.1.2-1_loong64.deb
     digest: 52fe8c374d5b0f18d538139bb314839f707a1ee6da3090d411fb9c2aa9c93e49
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libv/libvorbis/libvorbisfile3_1.3.7-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libv/libvorbis/libvorbisfile3_1.3.7-1_loong64.deb
     digest: ee8791150f1bfe803c6dc3cbbb699a5f6db83f9acea98d0d7af33db8cc50d929
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/v/vulkan-loader/libvulkan-dev_1.3.296.0-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/v/vulkan-loader/libvulkan-dev_1.3.296.0-1_loong64.deb
     digest: f85518b7ab894cce4194fa481c391a70ef19c368aa8bf8b755b2927ca1636a60
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libw/libwacom/libwacom-common_1.12-1_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libw/libwacom/libwacom-common_1.12-1_all.deb
     digest: ae18d0c6d1b68084756ae6a5ca4d4d680659ad6a9e5384bdbb49de48ffb75bd8
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libw/libwacom/libwacom-dev_1.12-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libw/libwacom/libwacom-dev_1.12-1_loong64.deb
     digest: 80b9f218239d0521b8c10264860dbf34673b210b56e82ee01ce149a997c57a0a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libw/libwacom/libwacom2_1.12-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libw/libwacom/libwacom2_1.12-1_loong64.deb
     digest: 87c13b7db15b7c19111c5af081825d48550cd48c351e3c5ddfac976939bd67b1
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/w/wayland/libwayland-bin_1.23.1-3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/w/wayland/libwayland-bin_1.23.1-3_loong64.deb
     digest: 82dc01f90ca12bba758c00e7591bb7423859729e15c55b9b7de7a066d82a0a53
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/w/wayland/libwayland-dev_1.23.1-3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/w/wayland/libwayland-dev_1.23.1-3_loong64.deb
     digest: 74aa1a5380f582d3fa512b1e129fd02fc7adc739766f19561c369652e7024458
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libw/libwebm/libwebm1_1.0.0.31-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libw/libwebm/libwebm1_1.0.0.31-1_loong64.deb
     digest: e94dcc495430d1a7cbe0c2130043ef0db8037519e7d82550d5b62e9fbfe9959c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libw/libwebp/libwebp-dev_1.3.2-0.2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libw/libwebp/libwebp-dev_1.3.2-0.2_loong64.deb
     digest: d1393a8e0ee0c5e7110a47cd729f042ac19b418bc2560f4fcb330ff1addddada
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libw/libwebp/libwebpdecoder3_1.3.2-0.2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libw/libwebp/libwebpdecoder3_1.3.2-0.2_loong64.deb
     digest: 6d33f9002478ee47a87b1906776df767e1248a29ff07c07e03aa44980d5326ef
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libx/libx11/libx11-dev_1.8.7-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libx/libx11/libx11-dev_1.8.7-1_loong64.deb
     digest: 9ff2157ecf2cb67c552cb49d624b32ab2393991a184e5151b233288c9a71113d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libx/libxau/libxau-dev_1.0.9-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libx/libxau/libxau-dev_1.0.9-1_loong64.deb
     digest: 15f907de0f88e9aac91b9fca3c609de2330cfe0c847b91d73ed5f3e2c4d098f7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libx/libxcb/libxcb1-dev_1.15-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libx/libxcb/libxcb1-dev_1.15-1_loong64.deb
     digest: 3d4b82cd16df0487be74f8f9f79d27fd7b0c5252c2a1c7bd2e03fa6453059728
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libx/libxdmcp/libxdmcp-dev_1.1.5-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libx/libxdmcp/libxdmcp-dev_1.1.5-1_loong64.deb
     digest: 389ba314f478942db7167a50aa9682dfdcbd01cccd82eeac649bd9744731aa89
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libx/libxkbcommon/libxkbcommon-dev_1.6.0-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libx/libxkbcommon/libxkbcommon-dev_1.6.0-1_loong64.deb
     digest: ba47dce288d90726795169d45ddf9b07f57c9391776ab2a4833ac26fe01a9c90
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libx/libxslt/libxslt1.1_1.1.43-0.3deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libx/libxslt/libxslt1.1_1.1.43-0.3deepin1_loong64.deb
     digest: 06b0d3d24b0675c3866ed872133348700709c73ca5a37944c9f8145bb02fa3d3
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/liby/libyuv/libyuv0_0.0.1888.20240710-3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/liby/libyuv/libyuv0_0.0.1888.20240710-3_loong64.deb
     digest: 5db04094a96e73a685b42d380eea7a3f3b84feeb02d941531246ecf45345d6fe
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/z/zeromq3/libzmq5_4.3.5-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/z/zeromq3/libzmq5_4.3.5-1_loong64.deb
     digest: ea9300e3470746654e2977f1f42d4577d502625781cdf053bea7aeff012ea17b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/libz/libzstd/libzstd-dev_1.5.6+dfsg-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/libz/libzstd/libzstd-dev_1.5.6+dfsg-1_loong64.deb
     digest: 542cb13caf60619314815e4a117fb1e39c3540a241aa52a34fb9cc7b4717f08e
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/linguist-qt6_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/linguist-qt6_6.8.0-0deepin3_loong64.deb
     digest: 300cb587a7919079edbafd58ca6c5d82ec6783aff34e3f6ccb8c5f4f170c8a5d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/l/lsb/lsb-base_11.6_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/l/lsb/lsb-base_11.6_all.deb
     digest: f8bedd167280e76636df3a1bc023cd2906d458916c1af4c1d7912c5b971fc642
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/l/lshw/lshw_02.19.git.2021.06.19.996aaad9c7-2deepin0_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/l/lshw/lshw_02.19.git.2021.06.19.996aaad9c7-2deepin0_loong64.deb
     digest: a6b376c2fd149cc6cabd93cd94dea5c9793fe8e9b9773c22bb9a12812ac52cf4
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/m/mailcap/mailcap_3.70_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/m/mailcap/mailcap_3.70_all.deb
     digest: 7ca67d118c03eaf58346eb1e676ff16f4d1aa5252a8cc6b5b3b1ed44556180f1
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/m/make-dfsg/make_4.4.1-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/m/make-dfsg/make_4.4.1-1_loong64.deb
     digest: 549a2844f1ba5051fd3be57714c0e2498054ebf269ecfe235e532a0b363e4f8d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/m/mariadb/mariadb-common_11.8.1-4deepin1_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/m/mariadb/mariadb-common_11.8.1-4deepin1_all.deb
     digest: 848333f2b40b586ecf8f0db2b6127398d0423867e689937c4427ab15570e5581
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/m/mime-support/mime-support_3.66_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/m/mime-support/mime-support_3.66_all.deb
     digest: 20294deda4378616c2b48614ee226731ec09663c3497c35a467e8ea5fa03f16a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/m/mysql-defaults/mysql-common_5.8+1.1.0_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/m/mysql-defaults/mysql-common_5.8+1.1.0_all.deb
     digest: 729d9b051d2dcda0d0bf51fee21d3b685093314a0b2283926f1eb11f937cb04c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/p/patch/patch_2.8-2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/p/patch/patch_2.8-2_loong64.deb
     digest: 96dd75e1b9172451e8876729a534d1f7a4a3b36476c849aec10309973c6bf44d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/p/pci.ids/pci.ids_0.0~2026.04.09-1_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/p/pci.ids/pci.ids_0.0~2026.04.09-1_all.deb
     digest: 9ca9e53d791ed36915ac6023eb92c20196aadf2f87c090f1fa65ea94642ff705
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/p/pkgconf/pkgconf-bin_2.5.1-4_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/p/pkgconf/pkgconf-bin_2.5.1-4_loong64.deb
     digest: 5a57a719ad9fa99d70119cfdaa3dfbc94b19c96a1cd183188125395845bb5b76
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/p/pkgconf/pkgconf_2.5.1-4_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/p/pkgconf/pkgconf_2.5.1-4_loong64.deb
     digest: 649c5d434ae0019a221b37d0f3e28a7a4c1b94e83e54f99a2e0432f833dbaad7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/p/python-packaging/python3-packaging_25.0-1_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/p/python-packaging/python3-packaging_25.0-1_all.deb
     digest: 4b0fffc886401daa9acfb53e2b190528e3fad37a49b989c4fae6715004fda41e
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qdbus-qt6_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qdbus-qt6_6.8.0-0deepin3_loong64.deb
     digest: 0287e6d08e13e90c9fb8672adc90fd30703e8f4911da23cf0025e7e1d6101533
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qmake6-bin_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qmake6-bin_6.8.0+dfsg-0deepin40_loong64.deb
     digest: cafde7e718a9186269b7711c1e2b7eee504cdff7c95257561e1b15d57c10beea
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qmake6_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qmake6_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 284cb72ca82798ac6cdcbac50682025647ef157887bac5473fbaf82cc725f1c4
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml-qt6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml-qt6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: c357e12fe5c1c9671e5b759b295124fe5472c9283073853f4c2ecf41cd27a479
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qmltime_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qmltime_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 1c996f1a82fae53b54dfe0ba5fe062afb113bf3b0b0bbec7ead7db7fcd9ecffb
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-animation_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-animation_6.8.0+dfsg-0deepin17_loong64.deb
     digest: bdfdd71fd16df86edecbca30ac3adc2034b1ffffdf745e8f266136e8036fc6a1
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-folderlistmodel_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-folderlistmodel_6.8.0+dfsg-0deepin17_loong64.deb
     digest: ea3753a2b646b238ae476b63fde82eedec84fe39c5345c09e0cc2e5039359959
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-platform_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-platform_6.8.0+dfsg-0deepin17_loong64.deb
     digest: dfee2fe5dd140b9e248eb17cf0928835a9fed58d8384962d6626f17290f0f439
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-qmlmodels_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-qmlmodels_6.8.0+dfsg-0deepin17_loong64.deb
     digest: e26ce2cda67668f16bd9d57c813cb2047af2f5368078cb2c55f20a05a6475108
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-settings_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-settings_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 7183fb447be770bd4f162602fc872987c6472a28bc606d8dbb230b0df2b50bd1
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-sharedimage_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-sharedimage_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 6de9120411cd48161395a8d57aafbfc770a2ae86ffd9f3dc5bbdffe98c26f55d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-wavefrontmesh_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qt-labs-wavefrontmesh_6.8.0+dfsg-0deepin17_loong64.deb
     digest: b8ee6899cf5996f0a54beff8d6458e6550a3a002cd27d1d27e3995d976e5a0e6
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-5compat/qml6-module-qt5compat-graphicaleffects_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-5compat/qml6-module-qt5compat-graphicaleffects_6.8.0-0deepin3_loong64.deb
     digest: a78348b67b8d1c8fa589404a8868cbeca56aeedf2071837610233260f98a945c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtcore_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtcore_6.8.0+dfsg-0deepin17_loong64.deb
     digest: a000af85414f49eb655ae054e87ce199aa23af93b2822d98e65772bcdf9fc47a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/qml6-module-qtmultimedia_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/qml6-module-qtmultimedia_6.8.0-0deepin_loong64.deb
     digest: 43df515525771e1c6d23246fa728102c60a6fa6ceb37769bf3903b190b50f819
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtqml-base_6.6.1+dfsg-1deepin7+rb1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtqml-base_6.6.1+dfsg-1deepin7+rb1_loong64.deb
     digest: f9530e42280535cf1f08732b4a307c112baa3820b4bd185bce1577d20eaf6aa1
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtqml-models_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtqml-models_6.8.0+dfsg-0deepin17_loong64.deb
     digest: bf2d92ee3fd48a5b761df2a9cd702a44aac93a98d6b112056d11bc9871c4bbec
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtqml-workerscript_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtqml-workerscript_6.8.0+dfsg-0deepin17_loong64.deb
     digest: ddbe65432b82bfcd135aa9f970cf8138610a84a2f3598edf4fd9b4d1b6565e73
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtqml-xmllistmodel_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtqml-xmllistmodel_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 759d0e4047d48274c8fd6c243cab3eec6ba529ac85233236b4610b9b07beb93a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtqml_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtqml_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 1290c2c7410fda40776eb9ad9df10d4a221489218fb1ec9fb3529cf6f4a8ecda
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/d/dtkdeclarative/qml6-module-qtquick-controls2-styles-chameleon_6.7.52-1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/d/dtkdeclarative/qml6-module-qtquick-controls2-styles-chameleon_6.7.52-1_loong64.deb
     digest: abbc30aebffa85181d251ce5bb6c399752fc70e31f6ccec654c82904957a47df
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-controls_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-controls_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 36abfc7ed6cbf48bb76289ffb73fd731ed07e83d600f4c7fefe09515585bad4d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-dialogs_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-dialogs_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 0cc169f9b47c828b1650157d9a03425371c02af277087adf57e64a90e42ec2d6
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-effects_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-effects_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 219c7bd409198fd2013cdb13e575b6f4ad2258c53e478ad41bc70ef1cb5e8f66
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-layouts_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-layouts_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 00e310b90316c1f58fd1637c22ba0ae48c8124ad630414ed70fcb315420ac6af
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-localstorage_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-localstorage_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 91b16e760d1893cd9751a3563c3e4ab7f8d403f990151971681cafce9e9778f2
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-nativestyle_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-nativestyle_6.8.0+dfsg-0deepin17_loong64.deb
     digest: d67eb2bdaadbc01a263e7e7622f8047c7fea924501274c9991162a97f6f7add8
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-particles_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-particles_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 40888808869f9fc776707e5fbcf1da7036346748bf69a8e684cc09914749be65
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qml6-module-qtquick-pdf_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qml6-module-qtquick-pdf_6.8.0-0deepin5_loong64.deb
     digest: d7f9c42a60423862ec846a37628767d80ae2c571f5727d19735793a81470f04b
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-shapes_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-shapes_6.8.0+dfsg-0deepin17_loong64.deb
     digest: df71752de42e5caebf751fc1d798f6546829987012f83c23456264ae9bf1758d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-templates_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-templates_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 3e47d8450e21019ec73a15ccfa000094820f4858dedfb9ef4547fd6c11854f0a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-tooling_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-tooling_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 80db8c53fe54cd5541b97ebf56a7955fda1079d5d9a10c7c2aa93e09f4797456
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-window_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick-window_6.8.0+dfsg-0deepin17_loong64.deb
     digest: e4c3e296695d63f84673fb90424f3168d032f95daac9f793821c5c9b4aed38d2
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/qml6-module-qtquick3d-spatialaudio_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/qml6-module-qtquick3d-spatialaudio_6.8.0-0deepin_loong64.deb
     digest: ed0e44c516e67bda0898057181b8a1c8c75dd729fdad49961e47b0d44bc9a5f6
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qtquick_6.8.0+dfsg-0deepin17_loong64.deb
     digest: f2a39396f179e64a2c0623e4571752394cc31ab9a66691181d946b1d6c456e89
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qttest_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qml6-module-qttest_6.8.0+dfsg-0deepin17_loong64.deb
     digest: ef7b1f64688ce4fbe7571b3551d3ace73ff4600adb7214bcbce1a5e102e859af
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-speech/qml6-module-qttexttospeech_6.8.0-0deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-speech/qml6-module-qttexttospeech_6.8.0-0deepin1_loong64.deb
     digest: d3e7911d9c70e0095aff698f109dc879c5e41606bd7feb91d6eb0ae6d9e72753
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qml6-module-qtwayland-client-texturesharing_6.8.0-0deepin16_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qml6-module-qtwayland-client-texturesharing_6.8.0-0deepin16_loong64.deb
     digest: bf16f9bd4d13bc0aacee1d5ebda7ca1069bf91f47fff75e3fb75195bf641d0cd
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qml6-module-qtwayland-compositor_6.8.0-0deepin16_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qml6-module-qtwayland-compositor_6.8.0-0deepin16_loong64.deb
     digest: 4885cab4633e3a1484406fbbfb21e79fb7ebab4c2946ba19f9a8ef50f8c1989d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webchannel/qml6-module-qtwebchannel_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webchannel/qml6-module-qtwebchannel_6.8.0-0deepin_loong64.deb
     digest: 3406c24ba7ad1277f678dd6be3daccff9a78d7f6adc6b97989f4c0581a6ee6ee
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qml6-module-qtwebengine-controlsdelegates_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qml6-module-qtwebengine-controlsdelegates_6.8.0-0deepin5_loong64.deb
     digest: c0e5b9dfaf4f1e408cdb17c26a49d49c8db4824c53786aa880934e0ce75d1a7d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qml6-module-qtwebengine_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qml6-module-qtwebengine_6.8.0-0deepin5_loong64.deb
     digest: b345279fe67e16ed57f08ee77baa19809c63a96ea165c3639761c041990a3466
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qmlscene-qt6_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qmlscene-qt6_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 46438bb1c17213c9bac58dbf34009e3b7ea10956fd5d3f1fcafb4d8c7ed804f7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-5compat/qt6-5compat-dev_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-5compat/qt6-5compat-dev_6.8.0-0deepin3_loong64.deb
     digest: 7f9b0fcae3b947262ada6052ce0a9c71d7ae9f17d7f53d4341b988013164fca7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-base-dev-tools_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-base-dev-tools_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 8af715ba78403fd605c2a8f9a77be6defa6e373efd391632386a6b9840098ec4
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-base-dev_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-base-dev_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 273d5c2ea0f91727adeb7d6911ac0f84bc078eadb997c74cf4efba5134cccf22
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-base-private-dev_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-base-private-dev_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 18628b82dbf8139232606e761442789aae4cb04b83612b9b68a1141ff976ec7e
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qt6-declarative-dev-tools_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qt6-declarative-dev-tools_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 95bc70fb6926f9371e53798d037e83a7afd73c63b946aaa09a3add1f5c83fa62
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qt6-declarative-dev_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qt6-declarative-dev_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 03a514eba37c0e155c2452a1fdb718da9b6894e4b93347843364d25f6f409ee6
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qt6-declarative-private-dev_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qt6-declarative-private-dev_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 27ce70d2d208e7974fe0365586842be0dae0061d617429897cdd4594e49fcf38
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qt6-documentation-tools_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qt6-documentation-tools_6.8.0-0deepin3_loong64.deb
     digest: ec3065e7d3127545cbb6dfe84c2d9f7e38b015a368033c1b8c67d955f8001b95
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-gtk-platformtheme_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-gtk-platformtheme_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 4a67552967349c6437ce544c367adc508aec914241d1afa788d0f9b5728c5d22
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qt6-image-formats-plugin-pdf_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qt6-image-formats-plugin-pdf_6.8.0-0deepin5_loong64.deb
     digest: 2cc88349072507cac6425e39f3e83436362c8d1f6dbb9cbb0e3ff7eb5082b57c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-imageformats/qt6-image-formats-plugins_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-imageformats/qt6-image-formats-plugins_6.8.0-0deepin3_loong64.deb
     digest: 98882eae6870908cb62f3fbced83e3189036c58109c82c1dc69cab4e99de5172
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qt6-l10n-tools_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qt6-l10n-tools_6.8.0-0deepin3_loong64.deb
     digest: 91e20e6b2f68393e3b4764b9f57d55ac495174485239a607f994ef1aee08c459
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/qt6-multimedia-dev_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-multimedia/qt6-multimedia-dev_6.8.0-0deepin_loong64.deb
     digest: b1199d84256f297e6dd6d3b3cfe173285df461da56b10742c9dcae91c616675a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qt6-pdf-dev_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qt6-pdf-dev_6.8.0-0deepin5_loong64.deb
     digest: 9bcb9d05691e44a88c7272aca0ec481cc2a23204c3769e19fb39ace889ace042
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-positioning/qt6-positioning-dev_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-positioning/qt6-positioning-dev_6.8.0-0deepin_loong64.deb
     digest: efcafac62cee15a99d7df168d791fc74d79fc69e442efb3e9dedf72c1d92aa15
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qt6-qmllint-plugins_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qt6-qmllint-plugins_6.8.0+dfsg-0deepin17_loong64.deb
     digest: 8f36b704aca714d331d175f97b66c75cec7050555363aa94b2b89a82c26c30c0
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qt6-qmltooling-plugins_6.8.0+dfsg-0deepin17_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-declarative/qt6-qmltooling-plugins_6.8.0+dfsg-0deepin17_loong64.deb
     digest: f90c524217f73d12972484e353b52e59eeb4e50220e8db03c31819dd7eb290a0
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-qpa-plugins_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-qpa-plugins_6.8.0+dfsg-0deepin40_loong64.deb
     digest: 4557fff8af8285afd851d0ee78af315d6a70ac6c96f0c1060fcdb7b5dba1dcd0
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-speech/qt6-speech-dev_6.8.0-0deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-speech/qt6-speech-dev_6.8.0-0deepin1_loong64.deb
     digest: 366fe25e1aa641f31c261a422cd578724b47e3336d43a913e24a3d0c3d18c1a2
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-speech/qt6-speech-flite-plugin_6.8.0-0deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-speech/qt6-speech-flite-plugin_6.8.0-0deepin1_loong64.deb
     digest: f7d6d0e11fea53ada98657b4a547a7758ba1fa1e0aefe109b9b1605a51ce0bb1
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-speech/qt6-speech-speechd-plugin_6.8.0-0deepin1_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-speech/qt6-speech-speechd-plugin_6.8.0-0deepin1_loong64.deb
     digest: 0b390252dfa1e2666f40d6ab8fb75535169d22b21879c19a67f9cda4efd1432c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-svg/qt6-svg-dev_6.8.0-0deepin7_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-svg/qt6-svg-dev_6.8.0-0deepin7_loong64.deb
     digest: e2d724879b9cf8b32bca0e98b468db8854238eac16bd84f0353977b671787924
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-svg/qt6-svg-private-dev_6.8.0-0deepin7_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-svg/qt6-svg-private-dev_6.8.0-0deepin7_loong64.deb
     digest: 7592bdd2cb211535a4918a3f9e34bb3ad00a2d1c7b4c00b6c321e54b03bee598
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qt6-tools-dev-tools_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qt6-tools-dev-tools_6.8.0-0deepin3_loong64.deb
     digest: 4c27718be3d7bb75aeb12a2b6ffa4764e4600edb6b06cf3f31f45f99c70b6fcb
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qt6-tools-dev_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qt6-tools-dev_6.8.0-0deepin3_loong64.deb
     digest: b41b3f13bf4aecc868c876dab50bac5adb4471ccf989ae8641a2fdc7a83878b5
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qt6-tools-private-dev_6.8.0-0deepin3_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-tools/qt6-tools-private-dev_6.8.0-0deepin3_loong64.deb
     digest: 46026db29c9ff37a25638150ed457ef56d8a29b5c973ba386ae44ff0ec30ba03
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-translations/qt6-translations-l10n_6.8.0-0deepin2_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-translations/qt6-translations-l10n_6.8.0-0deepin2_all.deb
     digest: dbfa88dae0e66fa60e6558fa80242bb78be8dec5b37ea449f85826b1b48cf25c
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qt6-wayland-dev-tools_6.8.0-0deepin16_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qt6-wayland-dev-tools_6.8.0-0deepin16_loong64.deb
     digest: 80b45547ba53f76a0322fd5f037795e3e0b6f290411ac327c3c8d32571092e69
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qt6-wayland-dev_6.8.0-0deepin16_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qt6-wayland-dev_6.8.0-0deepin16_loong64.deb
     digest: 5d4087cf26d8e21b413a8e141731cb6856db3bdbc43d93be36f039eb74b28b86
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qt6-wayland-private-dev_6.8.0-0deepin16_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qt6-wayland-private-dev_6.8.0-0deepin16_loong64.deb
     digest: 1b4affaee24d15b3c2496bdcf7efb4b5dbe207b689f27d519fb9dcbbbdd06e2a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qt6-wayland_6.8.0-0deepin16_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-wayland/qt6-wayland_6.8.0-0deepin16_loong64.deb
     digest: fd0de831aee4f0d712b9a0d9032335b841a543dd77222f12f9dc3c9a146981aa
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webchannel/qt6-webchannel-dev_6.8.0-0deepin_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webchannel/qt6-webchannel-dev_6.8.0-0deepin_loong64.deb
     digest: a262e8ddf02837f2b10db769109fb682962e497eeeeb126c75e5c61bb1147acd
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qt6-webengine-dev-tools_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qt6-webengine-dev-tools_6.8.0-0deepin5_loong64.deb
     digest: 31cddc39d1b4a70ed7c4e5129e120e9112aea67eb8161ce576210e4d357ee980
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qt6-webengine-dev_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qt6-webengine-dev_6.8.0-0deepin5_loong64.deb
     digest: 53ed613ffa35bbef3cc3df7db16ebcbee92d6e23072151de8b1d828dabe024e1
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qt6-webengine-private-dev_6.8.0-0deepin5_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-webengine/qt6-webengine-private-dev_6.8.0-0deepin5_loong64.deb
     digest: ecc6c673f2b42ee7d8a335fa36c229579b91483b97bfbf5673702996e480f64a
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-xcb-private-headers-dev_6.8.0+dfsg-0deepin9_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-xcb-private-headers-dev_6.8.0+dfsg-0deepin9_all.deb
     digest: e70bbe5b35aa1009f8d3e8d58634052977864bad1d854230add6758ef238b1bc
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-xdgdesktopportal-platformtheme_6.8.0+dfsg-0deepin40_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/q/qt6-base/qt6-xdgdesktopportal-platformtheme_6.8.0+dfsg-0deepin40_loong64.deb
     digest: d3522cf424c3e6b0c6d9ea5b5d097464f2b4dbf369418a0cbe91cb967d440c36
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/s/spdx-licenses/spdx-licenses_3.8+dfsg-3_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/s/spdx-licenses/spdx-licenses_3.8+dfsg-3_all.deb
     digest: aae8ac2b6d3198d297d430cdb97e556365be2ff46d06525008ce071d97ac69c7
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/u/uos-license-content/uos-license-content_2.0.7_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/u/uos-license-content/uos-license-content_2.0.7_loong64.deb
     digest: 75df8322b47f7dd8d65779f2c2ef1336820a2ad6af0f63d4b3e4628cb8e74d15
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/u/usrmerge/usrmerge_39+nmu2deepin1_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/u/usrmerge/usrmerge_39+nmu2deepin1_all.deb
     digest: 544feca0992471720cd5648cf88b0241df5d32cf72c2037ab5d19fd617a15a29
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/u/util-linux/uuid-dev_2.40.4-3deepin9_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/u/util-linux/uuid-dev_2.40.4-3deepin9_loong64.deb
     digest: c4cb5f3fab879a163726c64a88e324efd42310194291143a3c3c868fc5f05453
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/x/xorgproto/x11proto-dev_2024.1-1_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/x/xorgproto/x11proto-dev_2024.1-1_all.deb
     digest: 39e14817ff2ab4eedade206fefebb7b2632e4dd7c358a9cfe36bcdd477554a04
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/x/xorg-sgml-doctools/xorg-sgml-doctools_1.11-1.1_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/x/xorg-sgml-doctools/xorg-sgml-doctools_1.11-1.1_all.deb
     digest: c3ac4805a75219ecc8a92a79697d39fa9abf6a7fa16da540800a0d30bdcc2847
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/x/xtrans/xtrans-dev_1.4.0-1_all.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/x/xtrans/xtrans-dev_1.4.0-1_all.deb
     digest: ab37e512128e066d7225deb7f51f0c77f9b0c3913d75f2a7f9b1d708327a099d
   - kind: file
-    url: http://10.20.64.92:8080/crimson_runtime/stable_20261029_auto/pool/main/z/zlib/zlib1g-dev_1.3.dfsg+really1.3.2-1deepin2_loong64.deb
+    url: https://runtime.cicd.getdeepin.org/crimson_runtime/stable_20261029_auto/pool/main/z/zlib/zlib1g-dev_1.3.dfsg+really1.3.2-1deepin2_loong64.deb
     digest: b429b71c963c4877dd9dc484e07624b08b0b61fe7ee24fb5a62e729b66620efe
